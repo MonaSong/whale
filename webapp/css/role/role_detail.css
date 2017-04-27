@@ -1,0 +1,128 @@
+.role_management_top{
+	position:fixed !important;
+	right:5%;
+	top:0%;
+}
+.btn-choose .btn-cancel {
+    padding: 10px 50px;
+    border-radius: 2px;
+}
+.btn-gray:hover {
+    background: #eaeaea;
+}
+.btn-choose .btn-confirm {
+    padding: 10px 50px;
+    border-radius: 2px;
+}
+.btn-red {
+    background: #f30026;
+    border: none;
+    line-height: 20px;
+    padding: 10px 12px;
+    transition: background 0.2s, transform 2s;
+    -webkit-transition: background 0.2s, -webkit-transform 2s;
+    color: #ffffff;
+    border: 1px solid #f30026;
+}
+.btn-red:hover{
+	color:#ffffff !important;
+}
+.form-data-pane{
+	border:1px solid #eaeaea;
+}
+.give_role{
+	position:relative;
+	left:-38%;
+}
+.whale-tab{
+	padding-top:20px !important;
+}
+.table tr td a{
+    color:#0099ff;
+}
+.table-bordered>thead>tr>td{
+border:none;
+}
+.header_remind{
+    margin-top:10px;
+}
+.table-bordered>thead>tr>td{
+    border-bottom:1px solid #dcdcdc;
+}
+.table>tbody>tr>td{
+  vertical-align:middle;
+   border-bottom:1px solid #dcdcdc;
+   color:#333333;
+}
+.table>thead>tr>td{
+color:#666666;
+
+}
+.table .role-tbody tr td{
+    padding:4px 20px;
+}
+.table-role-list>thead>tr>td{
+    padding:12px 20px;
+}
+.table-role-list>tbody>tr>td{
+    padding:0px 20px;
+}
+.role-table>thead>tr>td {
+    padding:12px 20px;
+    color: #666666;
+}
+/* 表格条纹修改 */
+.table-striped>thead>tr{
+    background-color: #f5f5f5;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #f5f5f5;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+.table>tbody>tr:hover{
+    background:#eaeaea;
+}
+div .div-inline{
+    float:left;
+}
+
+.rMenu{
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+
+.sMenu li,
+.rMenu li{
+    background-color: #fff;
+}
+
+.menu-to-role-box{
+    padding-left: 230px;
+    background-color: #fff;
+}
+
+.menu-to-role-box .menu-note{
+    display: inline-block;
+    margin-left: -28%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: #f30026;
+    padding: 8px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.menu-to-role-box .menu-note.menu-roles{
+    margin-left: 0;
+}
+
+.roles-select{
+    margin-left: 30px;
+}

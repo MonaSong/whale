@@ -1,0 +1,194 @@
+@CHARSET "UTF-8";
+
+/*新增邀请码按钮*/
+.addcode{
+    display: none;
+}
+/*邀请码生成人*/
+.creat-person{
+	display:none;
+}
+.company{
+	display:none;
+}
+.user-time{
+	display:none;
+}
+.lose{
+	display:none !important;;
+}
+.btn-choose .addcode{
+	margin-top:10px;
+}
+.btn-choose .btn-red{
+    padding:8px 50px;
+    transition: background 0.2s, transform 2s;
+    -webkit-transition: background 0.2s, -webkit-transform 2s;
+    color: #ffffff;
+    border-radius:2px;
+    cursor: pointer;
+}
+.text-static {
+    padding-top: 10px;
+    position: relative;
+   left:0;
+}
+.btn-choose .btn-red:hover{
+    background-color:#dc0026;
+}
+.s-page-content .whale-well .search-bar input {
+    margin-top: 16px;
+}
+/* 表格条纹修改 */
+.table-striped>thead>tr{
+    background-color: #fafafa;
+}
+.table-bordered>thead>tr>td{
+    border-bottom: 1px solid #dcdcdc;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #fafafa;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+.table>tbody>tr:hover{
+    background:#f2f2f2;
+}
+/* 表格间距行高 */
+.table .table-tbody tr td{
+    padding:6px 20px;
+}
+.table>tbody>tr>td{
+    padding:0px 20px;
+}
+.table>thead>tr>td{
+    padding:13px 20px;
+    color: #666666;
+}
+.table tr td a{
+    color:#0099ff;
+}
+.table-bordered>thead>tr>td{
+border:none;
+}
+.table-bordered>thead>tr{
+border:1px solid #dcdcdc;
+}
+.table tbody tr .agency-revise{
+    padding:5px 0;
+}
+.header_remind{
+    margin-top:10px;
+}
+.table-bordered>tbody>tr>td{
+    border-bottom:1px solid #dcdcdc;
+    color:#333333;
+}
+/* 模态框 修改*/
+.text-static {
+    padding-top: 10px;
+    float: left;
+}
+.modal-footer {
+    border-top:none;
+}
+.admin_user{
+    text-align:left;
+    color:#000000;
+}
+.modal-title{
+    color:#666666;
+    height:36px;
+    line-height:36px;
+}
+.modal-header{
+    padding:0 15px;
+    background:#fafafa;
+    color:#666666;
+}
+.modal-body{
+    padding:40px 15px;
+    color:#333333;
+}
+@media (min-width: 768px){
+.modal-dialog {
+    width: 540px;
+    margin: 30px auto;
+}
+}
+.modal-footer {
+    padding:15px;
+}
+.modal-content{
+border-radius:0;
+box-shadow:none;
+}
+.modal-footer .btn+.btn {
+    margin-left: 10px;
+}
+
+.form-control{
+    border-radius:2px;
+}
+
+.whale-remind{
+    border:1px solid #eaeaea;
+}
+.icon-delete{
+    width:18px;
+    height:18px;
+    background-position:0 -48px;
+    color:#fafafa;
+    display: inline-block;
+}
+.form-control[disabled]{
+    background-color:#fafafa;
+}
+.modal-dialog {
+    position: absolute;
+    left:36.4%;
+    top: 25%;
+    transform:translateX(-50%) translateY(-50%);
+}
+/* 取消 确定按钮 */
+.btn-choose .btn-away,.btn-choose .btn-assign{
+    padding:7px 40px;
+    border-radius: 2px;
+}
+.close {
+     opacity:1;
+}
+.modal-header .close {
+    margin-top:8px;
+}
+.time-item{
+    color:#999999;
+}
+.black{
+    color:#333333;
+}
+.checkbox-list{
+    width:10px;
+    height:13px;
+}
+/* 右上角x图片 */
+.message-img{
+    background:url(../../imgs/remind/icon_tag.png) no-repeat;
+}
+.icon-delete{
+    width:18px;
+    height:18px;
+    background-position:0 -48px;
+    color:#fafafa;
+    display: inline-block;
+}
+.select-content{
+	padding-left:10px;
+}
+.text-info{
+	color:#999999;
+	margin-top:10px;
+	font-size:14px;
+	margin-left:65px;
+}

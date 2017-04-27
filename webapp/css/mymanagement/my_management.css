@@ -1,0 +1,12 @@
+table tbody tr{
+    border-top: 1px solid #eaeaea; 
+}
+
+a{
+    color: #0099ff;
+}
+
+a:hover,
+a:focus{
+    color: #0082ff;
+}

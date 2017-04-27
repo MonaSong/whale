@@ -1,0 +1,424 @@
+.whale-list .blue{
+	text-align: center;
+	color: rgba(0, 153, 255, 1);
+}
+.bage-yellow{
+	background-color: rgba(255, 204, 0, 1);
+}
+.bage-yellow:hover{
+	background-color:rgba(255, 180, 0, 1);
+}
+.bage-green{
+background-color: #00cc33;
+}
+.bage-green:hover{
+background-color:#00b433;
+}
+.bage-red{
+	background-color: rgba(255, 0, 0, 1);
+}
+.bage-gray{
+    background-color: rgba(153, 153, 153, 1);
+}
+.bage-red:hover{
+	background-color:rgba(0, 240, 255, 1);
+
+}
+.repay_skip{
+	width:480px !important;
+}
+/* 显示隐藏 */
+.winerName{
+	display:none;
+}
+.finaceName{
+	display:none;
+}
+.hide{
+	display:none;
+} 
+#add-new-repay{
+	display:none;
+}
+.select_check{
+    display:none !important;
+}
+/* 详情样式 */
+.rapayment-title{
+	border:1px solid #eaeaea;
+}
+#repay-management-tab{
+	border:1px solid #eaeaea !important;
+}
+#operation{
+    display:none
+}
+.start_plan{
+    display:none;
+    color:#ffffff;
+    out-line:none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-modify: read-write-plaintext-only;
+}
+.start_plan:hover{
+	color:#ffffff;
+}
+.btn-save{
+    display:none
+}
+.alreadyOperate{
+	display:none
+}
+.btn-red,.btn-gray{
+	padding:8px 50px;
+    transition: background 0.2s, transform 2s;
+    -webkit-transition: background 0.2s, -webkit-transform 2s;
+    color: #ffffff;
+    border-radius:2px;
+    cursor: pointer;
+    margin-top:10px;
+    margin-left:20px;
+    font-size:14px;
+}
+.btn-gray{
+	color: #000;
+}
+.btn-red:hover{
+	color:#FFFFFF;
+}
+
+.data-rapay-body{
+	padding-left:30px !important;
+	padding-top:20px !important;
+	padding-bottom:20px !important;
+}
+.repayList{
+    height: 174px !important;
+}
+ .gray_money_color{
+	position:relative;
+	left:-6%;
+	top:-110%;
+	padding-top:1px;
+	font-size:18px;
+	color:#333333;
+}
+
+.gray_dismoney_color{
+	position:relative;
+    left:-6%;
+    top:-110%;
+	padding-top:1px;
+    font-size:18px;
+    color:#c8c8c8;
+}
+.data-list-left .bage-gray,.bage-yellow{
+	font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 20px;
+}
+.data-repay-date{
+	position:relative;
+	top:-112%;
+	left:10%;
+	padding-left:125px;
+}
+.gray_period_color,.gray_disperiod_color{
+	padding-left:0px !important;
+	width:70px;
+	height:24px;
+	border:1px solid #fea003;
+	border-radius:15px;
+	font-size:14px;
+	color:#fea003;
+}
+.gray_period_color:hover{
+	cursor:pointer;
+	background:#fea003;
+	color:white;
+}
+.gray_disperiod_color:hover{
+	cursor:pointer;
+    background:#fea003;
+    color:white;
+}
+.data-repayment-list{
+	padding-left:40px !important;
+}
+.gray_color p{
+	font-size:14px;
+	color:#333333;
+}
+.gray_disabled_color p{
+	font-size:14px;
+    color:#c8c8c8;
+}
+.repay-settle{
+    position: relative;
+    left: -6%;
+    top: -16%;
+    padding-top: 1px;
+    font-size: 18px;
+    color: #333333;
+}
+.repay-overdue{
+	position: relative;
+    top: -22%;
+    left: 10%;
+    padding-left: 125px;
+} 
+.data-loanAmoun,.data-totalAmount,
+.data-financePeriod,.data-repaymentAmount,
+.repaymentWay,.repaymentDate{
+	margin-top:15px;
+}
+
+.start_plan:hover,.start_plan:focus{
+	color:#fff;
+}
+.repayStatus{
+	padding:0 !important;
+	line-height:36px !important;
+	width:86px;
+	height:36px;
+	border-radius:20px;
+}
+
+/* 还款详情 */
+#repayment-form{
+	border:1px solid #eaeaea;
+}
+.repay_date,.repay_money{
+	margin-top:7px;
+	width:120px;
+	height:36px;
+}
+.total{
+	margin-bottom:25px !important;
+}
+.enableRepay{
+	margin-top:-15px;
+}
+.repayment_num,.win_name{
+	margin-top:10px;
+}
+.period{
+	padding-left:40px !important;
+	color:#01affe;
+}
+.repay_period{
+	padding-left:40px !important;
+}
+.repay_status{
+	padding-left:70px !important;
+}
+.data-state{
+	text-align:center;
+	padding-left:70px !important;
+}
+.saveData{
+	position:absolute;
+	top:0px;
+} 
+.select2-selection{
+	height:38px !important;
+	border:1px solid #dcdcdc !important;
+	background:#fafafa !important;
+}
+.select2-selection_background{
+	background:white !important;
+}
+.normal,.overdue,.Interest,.last_normal,.last_overdue,.last_Interest{
+	background:#fbfbfb;
+	width:40px;
+	height:35px;
+	padding-left:0px;
+	padding-right:0px;
+	outline: none !important;
+	margin-left:-3px;
+}
+.select2-selection__arrow{
+	position:absolute !important;
+	top:6px !important;
+}
+.select2-selection__rendered{
+	line-height:38px !important;
+}
+.select2-selection--single{
+	border-radius:2px !important;
+}
+#repayment_table{
+	border:1px solid #eaeaea;
+}
+#repayment_table thead tr td{
+	border-bottom-width: 1px !important;
+	border:0px !important;
+	line-height:39px;
+}
+#repayment_table thead tr{
+	height:39px;
+}
+.mywork{
+	padding-top:60px;
+}
+#repaymentlist tr{
+	border-top:1px solid #eaeaea;
+}
+.font_color{
+	color:#01affe;
+}
+.font_disabled_color{
+	color:#000;
+}
+.start_back_color{
+	transition:background-color linear .2s;
+	background:#40b03a;
+}
+.start_back_color:hover{
+	transition:background-color linear .2s;
+	background:#00b433;
+	color:white;
+}
+.disabled_back_color{
+	transition:background-color linear .2s;
+	background:#ffcc00;
+}
+.disabled_back_color:hover{
+	transition:background-color linear .2s;
+	background:#feb600;
+	color:white;
+}
+.select2-container--default .select2-results__option[aria-disabled=true]{
+	color:red !important;
+}
+/*模态框样式*/
+.audit{
+	width:450px;
+	height:150px;
+	border-radius:0px;
+}
+.audit-header{
+	padding:0px !important;
+	height:36px;
+	background:#eaeaea;
+}
+.audit-header h4{
+	font-size:16px;
+	color:#666;
+	line-height:36px;
+	margin-left:20px;
+}
+.audit-header .close{
+	font-size:18px !important;
+	line-height:36px;
+	margin-right:10px;
+	out-line:none;
+}
+.information-content p{
+	font-size:16px;
+	color:#666;
+}
+.btn-back,.btn-forbidden,.btn-start,.btn-normalSave,.btn-interestSave,.btn-overdueSave,.btn-detial{
+	width:100px;
+	height:36px;
+	border-radius:0px !important;
+}
+.btn-forbidden,.btn-start,.btn-normalSave,.btn-interestSave,.btn-overdueSave,.btn-detial{
+	background:red;
+	color:white;
+}
+.btn-forbidden:hover,.btn-start:hover,.btn-normalSave:hover,
+.btn-interestSave:hover,.btn-overdueSave:hover,.btn-detial:hover{
+	color:white;
+}
+.btn-back{
+	margin-right:10px;
+}
+.btn-disenabled{
+	margin-right:0;
+}
+.btn-group{
+	margin-right:-20px;
+	padding:12px;
+}
+.last_btn_group{
+	margin-top:-23px;
+}
+
+/* 图片上传 */
+ #repay-view{
+    z-index: 10;
+}
+.repay-view{
+	position:relative;
+	top:8px;
+	width: 36px;
+}
+
+.repay-view:before,
+.repay-view:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+table tbody tr td{
+    position: relative;
+}
+.upfilebox input {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left:8px;
+    top:8px;
+    z-index: 9;
+    opacity: 0;
+}
+.upfilebox label {
+    position: absolute;
+    left:7px;
+    top:6px;
+    display: inline-block;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+}
+.lable_receipt,.lable_repayment{
+    visibility:hidden;
+}
+.sign,
+.factory_style{
+	position: absolute;
+	top: -7px;
+	/* right: 214px; */
+	right: -7px;
+	z-index: 21;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: #f30026;
+	border-radius: 100%;
+	color:#fff;
+	cursor: pointer;
+	text-align: center;
+	line-height: 14px;
+}
+#myModalLabel{
+    position:relative;
+    top:7px;
+}
+.hide{
+    display:none;
+}
+.img{
+    position:absolute;
+    z-index:20;
+    cursor:pointer;
+}
+.modal-title{
+    color:#666666;
+}
+ 

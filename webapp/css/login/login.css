@@ -1,0 +1,995 @@
+
+/**
+ * @Date:2016/10/24
+ * @Author:yugang
+ * @Description:login
+ */
+/*公共样式*/
+/*导航展示区*/
+.footer{
+	margin-bottom:50px;
+}
+.header-bar{
+    border-bottom:3px solid #eee;
+}
+
+.blue{
+    color: #0180f9 !important;
+}
+
+.nav .homepage,.equity,.partner,.help,.anenst{
+    width:100%;
+    height:50px;
+    line-height:50px;
+}
+.nav .homepage a,.equity a,.partner a,.help a,.anenst a{
+    font:700 16px "";
+}
+.nav .homepage a:hover,.equity a:hover,.partner a:hover,.help a:hover,.anenst a:hover{
+    color:red;
+}
+/*登录展示区*/
+.main{
+    height:600px;
+}
+.login-banner{
+	background-color: #4385f5;
+}
+.main.winery-regist{
+	height: 406px;
+    background-color: #fb3b00;
+}
+    
+.banner{
+    /* width:75%; */
+    height:400px;
+    background:#ff2d13;
+}
+/* 登入模板块*/
+.login{
+width: 350px;
+height: 400px;
+background:#ffffff;
+margin-top:77px;
+border:1px solid;
+border-color:rgba(204, 204, 204, 1);
+}
+.login-title{
+    height: 40px;
+    padding-top: 10px;
+    width: 257px;
+    margin-left: 15px;
+}
+.user_login_title{
+	position:relative;
+	top:58px;
+}
+.login-member{
+    position: absolute;
+    top: 0px;
+    display: inline-block;
+    font-size: 16px;
+    color: #555;
+    width:100px;
+    height:20px;
+}
+.codeShow{
+	position:absolute;
+	top:0px;
+	left:219px;
+}
+.status{
+	position:relative;
+	top:5px;
+}
+.remember{
+	position:relative;
+	left:4px;
+    top:4px;
+}
+.login_register{
+	position:relative;
+    top:6px;
+}
+.status span{
+	position:relative;
+    top:5px;
+}
+.my-settled{
+    position: relative;
+    top:8px;
+
+}
+.my-settled a{
+    color: #f30026;
+}
+
+.login-test{
+    margin-top: 58px;
+    height: 100px;
+}
+#login-error{
+	width:304px;
+	height:28px;
+	line-height:28px;
+	border:2px solid #f27f88;
+	margin-top:-10px;
+	cursor:pointer;
+}
+#login-error .login_prompt{
+	position:absolute;
+	left:30px;
+	top:0px;
+}
+[data-role="delete-file"]{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    z-index: 11;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #f30026;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 12px;
+}
+.login-password{
+     outline: none;
+}
+.login-remember{
+    padding: 0 15px;
+    margin-top: 50px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+input[type=checkbox]{
+　　display: inline-block;
+　　vertical-align: middle;
+　　margin-bottom: 2px;
+}
+
+.member-login{
+    width:304px;
+    margin:-22px auto;
+    display:block;
+    height: 40px;
+    background-color: #0099ff;
+    background-image:none;
+    word-spacing:8px;
+    letter-spacing: 12px;
+    color:#ffffff;
+    transition:background-color linear .2s;
+}
+.member-login:hover{ 
+    transition:background-color linear .2s;
+    background-color: #0082ff !important;
+}
+.btn:hover,.btn:focus{
+	color:#ffffff !important;
+}
+.bc_pic img{
+	position: relative !important;
+    left: 0px !important;
+}
+
+/* 登入模块结束 */
+.audit {
+    margin-top: 50%;
+    height: 240px;
+}
+
+.audit-header {
+    border: 0;
+}
+
+.information-content {
+    padding: 20px 5%;
+}
+
+.audit-btn {
+    margin-top: 25px;
+    width: 28%;
+}
+ .audit-fail{
+    margin-top:50%;
+    height:240px;
+}
+.fail-header{
+    border:0;
+}
+.information-content{
+    padding:20px 5%;
+}
+.audit-fail-btn{
+    width:28%;
+    margin-right:5%;
+}
+.audit-fail-sure{
+    width:28%;
+}
+.btn-close{
+    width:90%;
+}
+.btn-save{
+    width:90%;
+}
+/*新闻展示*/
+.new{
+    margin-top:40px;
+}
+.service,.project,.drinking,.require{
+    margin-left:5%;
+}
+.finance,.service,.project,.drinking,.require{
+    width:16%;
+    height:600px;
+}
+.finance-img,.service-img,.project-img,.drinking-img,.require-img{
+    height:115px;
+    border:1px solid #eee;
+    margin-top:4px;
+    margin-bottom:4px;
+}
+.finance-more,.service-more,.project-more,.drinking-more,.require-more{
+    margin-top:40px;
+}
+.finance-function,.service-function,.project-function,.drinking-function,.require-function{
+    margin-top:40px;
+    margin-left:30%;
+    height:80px;
+    width:42%;
+    border-radius:40px;
+    border:1px solid deepskyblue;
+}
+.finance-recommend,.service-recommend,.project-recommend,.drinking-recommend,.require-recommend{
+    margin-top:20px;
+}
+.finance .finance-introduce,.service .service-introduce,.project .project-introduce,.drinking .drinking-introduce,.require .require-introduce{
+    height:100px;
+}
+/*尾部展示区*/
+.footer .logo{
+    height:60px;
+    background:#eee;
+}
+.footer-bar{
+    margin-top:40px;
+}
+.footer-bar p:first-child{
+    margin-bottom:15px;
+}
+
+.footer-prove{
+    margin-top:10px;
+}
+
+/*以下是dom修改*/
+
+[name="publicError"]{
+    position: relative;
+    z-index: 100;
+}
+.banner-container{
+    position: relative;
+}
+.login-box{
+    position: absolute;
+    right:30px;
+    top:13px;
+}
+
+.banner-box{
+    position: relative; 
+    width: 1200px;
+}
+.login{
+	position:absolute;
+	right:-28px;
+    width: 340px;
+    height: 420px;
+    background: rgba(255, 255, 255, 1);
+    border:0;
+    border-color: rgba(204, 204, 204, 1);
+}
+.indexLogin{
+	padding-left:8px;
+    padding-right:8px; 
+    position:absolute;
+    top:-17px;
+}
+.forgetPassword{
+	color:#000;
+}
+.forgetPassword:hover{
+	color:#000;
+}
+.nav-header ul li{
+    padding: 0;
+    border: none;
+}
+
+.nav-menu .head-nav-bar{
+    display: inline-block !important;
+    height: 50px;
+    position: relative;
+    top:10px;
+    margin-left: 150px;
+}
+
+.head-nav-bar ul li{
+    position: relative;
+    display: inline-block;
+    margin-right:15px; 
+    padding-left: 15px;
+}
+.head-nav-bar ul li.active:after{
+    position: absolute;
+    display: block;
+    content: ' ';
+    width: 5px;
+    height: 5px;
+    background-color: #0180f9;
+    border-radius: 100%;
+    top:8px;
+    left:5px;
+}
+.head-nav-bar ul li.active a{
+    color: #0180f9;
+}
+
+.head-nav-bar ul li a{
+    font-size: 16px;
+    font-weight: 800;
+    color: #888;
+}
+
+.navbar-logo{
+    position: relative;
+    display: inline-block;
+}
+.navbar-header-content{
+    margin-top:0;
+    padding-top: 15px; 
+    margin-bottom: 15px;
+}
+.my-top-bar-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.my-top-bar-container ul{
+    position: relative;
+    top:5px;
+}
+
+.my-top-navbar{
+    position: relative;
+    height: 40px;
+    background-color: #f6f6f6;
+}
+
+.my-top-navbar ul li a{
+    padding: 0;
+    display: inline-block;
+}
+.navbar .navbar-nav>li>a{
+    font-weight: 800;
+}
+.navbar .navbar-nav>li>a:hover{
+    color: #0084ff;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+    background-color: #fff;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    line-height: 1;
+    position: relative;
+    left: -72px;
+}
+/*什么是基酒金融*/
+.my-container-box{
+    position: relative;
+    background-color: #fff;
+    padding-bottom: 30px; 
+    /* margin-top: 100px; */
+}
+.my-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.common-problem{
+	position:relative;
+	height:768px;
+}
+.my-container-box .my-container-title{
+    position: relative;
+    text-align: center;
+}
+.my-container-box .my-container-title span{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    display: block;
+    width: 160px;
+    margin: 0 auto;
+}
+.my-container-box .my-container-title span:after{
+    display: inline-block;
+    position: relative;
+    content: ' ';
+    height: 3px;
+    width: 80px;
+    left: -3px;
+    background-color: #0080fa;
+    top: -22px;
+}
+.my-container-box .base-win-info{
+    height: 445px;
+    position: relative;
+}
+
+.my-container-box .base-win-info.first-info{
+    margin-top: 30px;
+}
+
+.my-container-box .base-win-info.second-info{
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.my-container-box .base-win-info p{
+	margin-top:-20px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #666;
+}
+.my-container-box .base-win-info h3{
+    font-family: 'Microsoft Yahei';
+    font-size: 30px;
+    color: #0080fa;
+    margin-bottom: 31px;
+}
+.my-container-box .base-win-info:before,
+.my-container-box .base-win-info:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.my-container-box .base-win-info.first-info img,
+.my-container-box .base-win-info.second-info img{
+    position: relative;
+    width: 445px;
+    height: 445px;
+}
+.my-container-box .base-win-info.first-info .base-win-info-text,
+.my-container-box .base-win-info.second-info .base-win-info-text{
+    display: inline-block;
+    width: 606px;
+    position: relative;
+    top: 70px;
+}
+.my-container-box .base-win-info.first-info img{
+   float: right;  
+}
+.my-container-box .base-win-info.second-info img{
+    float: left;
+}
+
+/*基酒简介文案与图片动画效果*/
+.my-container-box .base-win-info .ani-rgt
+{
+    animation:movergt 1s 1;
+    -webkit-animation:movergt 1s 1; 
+}
+
+@keyframes movergt
+{   
+    
+    0% {
+        right:-1000px;
+        opacity: 0;
+        filter: opacity(0);
+    }
+    100% {
+        right:0;
+        opacity: 1;
+        filter: opacity(1);
+    }
+}
+
+@-webkit-keyframes movergt 
+{   
+    
+    0% {
+        right:-1000px;
+        opacity: 0;
+        filter: opacity(0);
+    }
+    100% {
+        right:0;
+        opacity: 1;
+        filter: opacity(1);
+    }
+}
+
+
+.my-container-box .base-win-info .ani-lft
+{
+    animation:movelgt 1s 1;
+    -webkit-animation:movelgt 1s 1; 
+}
+
+@keyframes movelgt
+{
+    0% {
+        opacity: 0;
+        filter: opacity(0);
+        left:-1000px;
+    }
+    100% {
+        opacity: 1;
+        filter: opacity(1);
+        left:0;
+    }
+}
+
+@-webkit-keyframes movelgt 
+{
+    0% {
+        left:-1000px;
+    }
+    100% {
+        left:0;
+    }
+}
+
+/*结束 基酒信息动画*/
+
+
+.my-container-box.product-introduction{
+    height: 453px;
+    padding-top: 70px !important;
+    padding-top: 15px;
+    background-color: #f5f5f5;
+}
+
+.my-container-box.finance-process{
+    height: 500px;
+    padding-top: 70px;
+    line-height: 1.428;
+    text-align: center;
+    padding-bottom: 0;
+    background-image: url('../../imgs/login/pop.png');
+    background-color: #0080fb;
+
+}
+.my-container-box.finance-process .my-container-title span{
+    color: #fff;
+}
+.my-container-box.finance-process .my-container-title span:after{
+    background-color: #fff;
+}
+.my-container-box.every-problem{
+    padding-top: 70px;
+    background-color: #f5f5f5;
+}
+.my-container-box.us-contact{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.my-container-box.us-service{
+    background-color: #efefef;
+    padding-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*顶部查询*/
+.my-search-bar {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    top: 10px;
+    left:40px;
+}
+.w-icon-search{
+	top:9px;
+	right:5px;
+}
+
+.my-search-bar input{
+    height: 35px;
+    border: 1px solid #efefef;
+    box-shadow: none;
+}
+
+.my-container-box.about-base-win{
+    padding-top: 30px;
+}
+
+/*顶部导航*/
+.my-top-bar-container ul li a{
+    color: #888;
+}
+.my-top-bar-container .top-operator{
+    display: inline-block;
+    padding: 0 5px;
+    border-right:1px solid #dedede;
+    margin-right: 5px;
+}
+.my-top-bar-container ul li .small-slash{
+    color: #dedede;
+}
+
+.my-container-box.copyright-information{
+	width:100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #34383b;
+    position: absolute;
+    bottom: 0;
+}
+
+.my-container-box.copyright-information span{
+    color: #fff;
+}
+
+.my-container-box.copyright-information .my-container{
+    width: 500px;
+}
+
+/*回到顶部*/
+[data-role="back-to-top"]:after{
+    display: block;
+    content: ' ';
+    height: 0;
+    width: 0;
+    border-style: solid;;
+    border-width:10px 8px 10px 8px;
+    border-color: transparent transparent #f30026 transparent; 
+    position: absolute;
+    top:0;
+    left:8px;
+}
+[data-role="back-to-top"] {
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 2px;
+    padding-left: 20px;
+    background-color: #999;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    display: none;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+}
+.sign-out{
+	position:absolute;
+	left:-99px;
+	width:126px;
+	height:30px;
+	text-align:center;
+	background:#f6f6f6;
+	border:1px solid #eee;
+	border-top:0px;
+	z-index:100000;
+	cursor:pointer;
+	display:none;
+}
+.navbar-header-content{
+	margin-bottom:20px;
+}
+.navbar_header{
+	width:1200px;
+	padding-top:10px;
+	height:80px;
+}
+.back_index{
+	margin-top:53px;
+}
+.back{
+	color:#555555;
+	font:12px '微软雅黑';
+	cursor:pointer;
+}
+.back:hover{
+	color:#555555;
+}
+
+
+/*酒厂入驻信息展示*/
+.login.winery-regist-info{
+	margin-top: 10px;
+	height:360px;
+}
+
+/*首页各种登录状态样式*/
+.finance_point,.finance_point1{
+	width:32px;
+	height:1px;
+	background:#fff;
+}
+.finance_point{
+	position:absolute;
+	top:164px;
+	left:35px;
+}
+.finance_point1{
+    position:absolute;
+    top:164px;
+    left:278px;
+}
+.finance_point2,.finance_point3{
+	width:8px;
+	height:8px;
+	border-radius:4px;
+	background:#fff;
+}
+.finance_point2{
+	position:absolute;
+    top:161px;
+    left:270px;
+}
+.finance_point3{
+	position:absolute;
+    top:161px;
+    left:67px;
+}
+.base_wine_finance{
+	margin-top:35px;
+	font:700 30px '微软雅黑';
+	color:#0c7eee;
+}
+.finance_img{
+	position:absolute;
+	top:83px;
+	left:100px;
+}
+.base_liquor_loan{
+	font:28px '微软雅黑';
+	margin-left:10px;
+	color:#fff;
+	margin-top:144px;
+}
+.warn_information p{
+	font:18px '微软雅黑'
+}
+.warn_information .base_liquor_benefit{
+	padding:10px 0px 50px 0px;
+	font:22px '微软雅黑';
+	color:#fff;
+}
+.login_warn{
+	margin-top:-3px;
+}
+.login_warn p{
+	color:#fff;
+}
+.loan-apply{
+	position:absolute;
+	top:290px;
+	left:50px;
+	background:#0099ff;
+	font:18px '微软雅黑';
+	padding:0;
+	width:240px;
+    height:45px;
+    line-height:40px;
+    border:1px solid #0080fa;
+    color:#fff;
+    z-index:20;
+    transition:background-color linear .2s;
+}
+.loan-apply:hover{
+	transition:background-color linear .2s;
+	color:#fff !important;
+	background:#0082ff;
+}
+.login_finace{
+	position:absolute;
+	right:-45px;
+	opacity:1;
+	background-color:#5b352a;
+}
+.wine_finance_img{
+	position:absolute;
+	top:25px;
+	left:50px;
+}
+.select_img{
+	padding:0px 5px 0px 5px;
+	display:none;
+}
+.userlogin{
+	padding-right:5px !important;
+	cursor:pointer;
+}
+.small-slash{
+	cursor:default;
+}
+.userRegister{
+	padding-left:5px !important;
+	cursor:pointer;
+}
+.top_loginbar{
+	padding-right:20px;
+	cursor: default;
+}
+.select_img{
+	position:absolute;
+	top:6px;
+	left:95px;
+	cursor:pointer;
+}
+.mobile-show{
+	position:absolute;
+	left:-100px;
+	top:0px;
+	cursor:pointer;
+}
+.mobile_border{
+	position:absolute;
+	width:1px;
+	height:20px;
+	left:126px;
+	background:#eee;
+}
+.base-win-fancing,.base-win-two-fancing{
+	width:485px !important;
+}
+.line{
+	position:absolute;
+	top:16px;
+	left:596px;
+	width:1px;
+	height:644px;
+	background:#62aff8;
+}
+.line-top-point,.line-bottom-point{
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background:#0080fa;
+}
+.line-top-point{
+	position:absolute;
+	left:592px;
+	top:6px;
+}
+.line-bottom-point{
+	position:absolute;
+    left:592px;
+    top:660px;
+}
+.problem-one,.problem-two,.problem-three,.problem-four,.problem-five,.problem-six{
+	width:44px;
+    height:44px;
+    border-radius:22px;
+    background:#0080fa;
+    color:#fff;
+    line-height:44px;
+    font-size:28px;
+}
+.problem-one{
+	position:absolute;
+	top:46px;
+	left:575px;
+}
+.problem-two{
+    position:absolute;
+    top:136px;
+    left:575px;
+}
+.problem-three{
+	position:absolute;
+    top:228px;
+    left:575px;
+}
+.problem-four{
+	position:absolute;
+    top:320px;
+    left:575px;
+}
+.problem-five{
+	position:absolute;
+    top:412px;
+    left:575px;
+}
+.problem-six{
+	position:absolute;
+    top:504px;
+    left:575px;
+}
+.product-user{
+	padding-top:24px;
+}
+.product-user h3{
+	margin-left:360px;
+	font:16px '微软雅黑';
+	color:#0080fa;
+}
+.product-user p{
+	margin-top:-6px;
+	margin-left:98px;
+    font:14px '微软雅黑';
+    color:#333;
+}
+.product-require{
+	padding-top:16px;
+}
+.product-require h3{
+	margin-left:638px;
+    font:16px '微软雅黑';
+    color:#0080fa;
+}
+.product-require p{
+    margin-top:-6px;
+    margin-left:638px;
+    font:14px '微软雅黑';
+    color:#333;
+}
+.finace-quota{
+	padding-top:1px;
+}
+.finace-quota h3{
+    margin-left:392px;
+    font:16px '微软雅黑';
+    color:#0080fa;
+}
+.finace-quota p{
+    margin-top:-6px;
+    margin-left:192px;
+    font:14px '微软雅黑';
+    color:#333;
+}
+.finace-date{
+	padding-top:18px;
+}
+.finace-date h3{
+	margin-left:638px;
+    font:16px '微软雅黑';
+    color:#0080fa;
+}
+.finace-date p{
+    margin-top:-6px;
+    margin-left:638px;
+    font:14px '微软雅黑';
+    color:#333;
+}
+.finace-way{
+	padding-top:18px;
+}
+.finace-way h3{
+	margin-left:474px;
+    font:16px '微软雅黑';
+    color:#0080fa;
+}
+.finace-way p{
+    margin-top:-6px;
+    margin-left:356px;
+    font:14px '微软雅黑';
+    color:#333;
+}
+.finace-cost{
+	padding-top:18px;
+}
+.finace-cost h3{
+	margin-left:638px;
+    font:16px '微软雅黑';
+    color:#0080fa;
+}
+.finace-cost p{
+	margin-top:-6px;
+    margin-left:638px;
+    font:14px '微软雅黑';
+    color:#333;
+}

@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+.sucess{
+	height:160px;
+}
+.notice{
+	margin-left:26%;
+}
+.hide{
+	display:none;
+}
+.block{
+	display:block;
+}
+.user_password{
+	height:40px;
+	margin: 0 auto;
+}
+.password{
+    position: relative;
+    top: -35px;
+    float:right;
+    display: inline-block;
+    width: 100px;
+    height: 32px;
+    line-height:12px;
+    border-radius:2px;
+    margin-right:4px;
+    cursor:pointer;
+    color:#ffffff;
+}
+.table-bordered>thead>tr>td{
+border:none;
+}
+.header_remind{
+    margin-top:10px;
+}
+.table-bordered>thead>tr>td{
+    border-bottom:1px solid #dcdcdc;
+}
+.table>tbody>tr>td{
+height:48px;
+ padding:13px 12px;
+ position: relative;
+ border-bottom:1px solid #dcdcdc;
+ color:#333333;
+}
+.table>thead>tr>td{
+height:48px;
+padding:13px;
+color:#666666;
+}
+#institutionId{
+	padding-left:8px;
+}
+#user_role{
+	padding-left:8px;
+}
+/* 表格条纹修改 */
+.table-striped>thead>tr{
+    background-color: #fafafa;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #fafafa;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+.table>tbody>tr:hover{
+    background:#eaeaea;
+}
+.whale-remind{
+	border:1px solid #eaeaea;
+}
+/* 模态框 修改*/
+.modal-footer {
+    border-top:none;
+}
+.admin_user{
+    text-align:left;
+    color:#000000;
+}
+.modal-title{
+    color:#666666;
+    height:36px;
+    line-height:36px;
+}
+.modal-header{
+    padding:0 15px;
+    background:#fafafa;
+    color:#666666;
+}
+.modal-body {
+    padding:20px 15px;
+    color:#333333;
+}
+.modal-footer {
+    padding:15px;
+}
+.modal-content{
+border-radius:0;
+box-shadow:none;
+}
+.modal-footer .btn+.btn {
+    margin-left: 10px;
+}
+.message-img{
+    background:url(../../imgs/remind/icon_tag.png) no-repeat;
+}
+.icon-delete{
+    width:18px;
+    height:18px;
+    background-position:0 -48px;
+    color:#fafafa;
+    display: inline-block;
+}
+/* 取消 确定按钮 */
+.btn-choose .btn-away,.btn-choose .btn-assign{
+    padding:7px 40px;
+    border-radius: 2px;
+}
+.close {
+     opacity:1;
+}
+.modal-header .close {
+    margin-top:8px;
+}
+.modal .modal-header h4,h4{
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #666 !important;
+}

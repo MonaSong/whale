@@ -1,0 +1,51 @@
+[data-operater="sure"]{
+	color:#01aff1;
+}
+[data-operater="sure"]:hover{
+	color:#01aff1;
+}
+[data-operater="modify"]{
+	color:#f30026;
+	
+}
+.btn-return{
+	position: absolute;
+	left:35%;
+}
+
+/*酒厂管理省区经理样式*/
+select.user-define-select[disabled]{
+    background-color: transparent;
+    border-color:transparent;
+}
+select.user-define-select{
+    background-color: #f6fff5;
+    border:1px solid #f6fff5;
+}
+
+[data-role="container"]{
+    border:1px solid #eaeaea;
+}
+
+.modal-header h4{
+    font-size: 16px;
+}
+.modal-header {
+    height: 36px;
+}
+
+.static-font{
+    position: relative; 
+    top: 9px;
+}
+.select2-container .select2-selection--single {
+    height: 38px;
+    border-radius:2px;
+    border-color: #dcdcdc;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 38px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height:38px;
+}

@@ -1,0 +1,141 @@
+html{
+    min-height: 100%;
+}
+body{
+    min-height: 100%;
+    position: relative;
+}
+html,body{
+    padding: 0;
+    margin:0;
+    background-color: #f6f6f6;
+}
+
+.container-box{
+    position: relative;
+    z-index: 3;
+    width: 1569px;
+    height: 2862px; 
+    margin: 0 auto;
+}
+
+.container-box .menu{
+    position: absolute;
+    top: 70px;
+    left: 714px;
+}
+
+/*首页*/
+[data-role="index"]{
+    background-image: url('../../imgs/basewinonline/index-bg.png');
+}
+
+/*行业资讯*/
+[data-role="info"]{
+    background-image: url('../../imgs/basewinonline/industry-info-bg.png');
+}
+
+/*找基酒*/
+[data-role="base-win"]{
+    height: 2069px;
+    background-image: url('../../imgs/basewinonline/find-base-win.png');
+}
+
+.container-box .menu{
+    position: absolute;
+    top: 70px;
+    left: 722px;
+}
+.container-box .menu ul li{
+    position: relative;
+    display: inline-block;
+    color: #0080fa;
+    margin-right: 10px;
+}
+.container-box .menu ul li a{
+    display: inline-block;
+    height: 20px;
+    width: 66px;
+    /* border:1px solid  #f30026; */
+}
+.container-box .menu ul li.active a{
+    color: #0080fa;
+}
+.container-box .menu ul li.active:after{
+    display: inline-block;
+    position: absolute;
+    left: -5px;
+    content: ' ';
+    width: 3px;
+    height: 3px;
+    background-color: #0080fa;
+    border-radius: 100%;
+}
+
+.head{
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    height: 100px;
+    top: 34px;
+    border-top: 4px solid #f4f4f4;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 472px;
+    width: 100%;
+    background-color: #f30026;
+    z-index:1;
+}
+
+.footer .about-us{
+    background-color: #efefef;
+    height: 422px;
+}
+
+.footer .company-info{
+    background-color: #22282d;
+    height: 55px;
+}
+
+
+/*找基酒menu*/
+[data-role="base-win"] .menu {
+    left:707px;
+}
+[data-role="base-win"] .menu li{
+    margin-right: 8px;
+}
+[data-role="base-win"] .menu li a{
+    width: 60px;
+}
+[data-role="find-base-win-container"] .head{
+    height: 102px;
+}
+[data-role="find-base-win-container"] .footer .about-us{
+    height: 423px;
+}
+/*行业资讯*/
+[data-role="info"] .menu {
+    left:707px;
+}
+[data-role="info"] .menu li{
+    margin-right: 8px;
+}
+[data-role="info"] .menu li a{
+    width: 60px;
+}
+[data-role="industry-information"] .head{
+    border-top: 4px solid #f0f0f0;
+    height: 102px;
+}
+
+.banner{
+    position: absolute;
+    top: 138px;
+    height: 416px;
+    width: 100%;
+    background-color: #31aafe;
+}

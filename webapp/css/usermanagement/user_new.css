@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+.margin{
+	width:1200px;
+	margin:0 auto;
+}
+
+.hide{
+    display:none;
+}
+.whale-remind{
+	border:1px solid #eaeaea;
+}

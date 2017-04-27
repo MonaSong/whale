@@ -1,0 +1,43 @@
+div .div-inline{
+	float:left;
+}
+
+.rMenu{
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+
+.sMenu li,
+.rMenu li{
+    background-color: #fff;
+}
+
+.menu-to-role-box{
+    padding-left: 230px;
+    background-color: #fff;
+}
+
+.menu-to-role-box .menu-note{
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background-color: #f30026;
+    padding: 8px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.menu-to-role-box .menu-note.menu-roles{
+    margin-left: 0;
+}
+
+.roles-select{
+    margin-left: 30px;
+}
+

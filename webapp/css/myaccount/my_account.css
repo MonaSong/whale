@@ -1,0 +1,81 @@
+
+/**
+*@Author MOna
+*date 2016-11-10
+*@description 我的账户
+*/
+
+.new-mobile,
+.modal-modify-phone .modal-footer{
+    display: none;
+}
+/*我的账户*/
+#cur-user{
+    display:block;
+    margin:24px auto;
+}
+.my-accounts{
+    margin-left:150px;
+}
+
+.modal .modal-header{
+    padding-top: 0;
+    height: 36px;
+}
+
+.modal .modal-header h4{
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #666 !important;
+}
+
+.modal .modal-header .close{
+    position: relative;
+    top: 8px;
+}
+
+.btn-red{
+    height: 40px;
+}
+.btn-default{
+    height: 40px;
+}
+
+.modifyPhone{
+    position: relative;
+    left: -130px;
+    height: 30px;
+    top: 4px;
+    border-radius:2px;
+    padding-top: 5px;
+}
+
+.get-old-mobile-verify,
+.get-new-mobile-verify{
+    position: absolute;
+    right: 20px;
+    height: 30px;
+    top: 4px;
+    border-radius:2px;
+    line-height: 10px;
+}
+
+.btn-fixed-width{
+    width: 130px;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 2px;
+}
+.usertype{
+	margin-bottom:0px;
+}
+.modify_password{
+	margin-top:-16px;
+}
+.modify_password i{
+	color:#01affe;
+	font-size:12px;
+	cursor:pointer;
+}

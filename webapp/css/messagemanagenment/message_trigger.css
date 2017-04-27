@@ -1,0 +1,256 @@
+.message-title{
+	color:#2fa4e7;
+	cursor:pointer;
+}
+.bage-default{
+	cursor:pointer;
+}
+.form-control[disabled]{
+	background-color:#fafafa;
+    opacity: 1;
+}
+.form-group {
+    margin-bottom:15px;
+}
+.form-data-pane {
+    padding-top:0px;
+}
+.icon-explain{
+	width:28px;
+	height:28px;
+	display:inline-block;
+	background: url(../../imgs/message/doubt-icon.png)no-repeat;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.parameter{
+	color:#0099ff;
+	padding:0 20px;
+	 cursor: pointer;
+}
+.mode{
+	padding:0 10px;
+}
+.form-content {
+    padding-top: 50px;
+}
+.form-data-pane{
+	border:1px solid #eaeaea;
+}
+/* 模态框 修改*/
+.text-static {
+    padding-top: 10px;
+    float: left;
+}
+.modal-footer {
+    border-top:none;
+}
+.admin_user{
+    text-align:left;
+    color:#000000;
+}
+.modal-title{
+    color:#666666;
+    height:36px;
+    line-height:36px;
+}
+.modal-header{
+    padding:0 15px;
+    background:#fafafa;
+    color:#666666;
+}
+.modal-footer {
+    padding:0;
+}
+.modal-body {
+    padding: 15px;
+}
+.message_time_table{
+	padding: 20px 15px;
+}
+.modal-header h4 {
+    top:0;
+}
+.modal-content{
+border-radius:0;
+box-shadow:none;
+}
+.modal-footer .btn+.btn {
+    margin-left: 10px;
+}
+
+.form-control{
+    border-radius:2px;
+}
+
+.whale-remind{
+    border:1px solid #eaeaea;
+}
+.icon-delete{
+    width:18px;
+    height:18px;
+    background-position:0 -48px;
+    color:#fafafa;
+    display: inline-block;
+}
+.form-control[disabled]{
+    background-color:#fafafa;
+}
+/* .modal-dialog {
+    position: absolute;
+    left:34.4%;
+    top:10%;
+    transform:translateX(-50%) translateY(-50%);
+} */
+/* 取消 确定按钮 */
+.btn-choose .btn-away,.btn-choose .btn-assign{
+    padding:7px 40px;
+    border-radius: 2px;
+}
+.close {
+     opacity:1;
+}
+.time-item{
+    color:#999999;
+}
+.black{
+    color:#333333;
+}
+.checkbox-list{
+    width:10px;
+    height:13px;
+}
+.send{
+	height:60px;
+	border:none;
+}
+/* 右上角x图片 */
+.message-img{
+    background:url(../../imgs/remind/icon_tag.png) no-repeat;
+}
+.icon-delete{
+    width:18px;
+    height:18px;
+    background-position:0 -48px;
+    color:#fafafa;
+    display: inline-block;
+}
+
+
+/* 参数说明 */
+.parameter-list{
+	min-width:1180px;
+    margin:30px auto;
+	font-size:12px;
+}
+.description{
+	width:1200px;
+}
+.table-style{
+	width:125px;
+}
+.modal-open .modal {
+    overflow-x: hidden;
+overflow-y: auto;
+}
+[data-role-name]:after {
+    content:none;
+}
+.img-message{
+	background:url(../../imgs/message/icon_message.png) no-repeat;
+}
+.icon-close{
+    width:12px;
+    height:12px;
+    background-position:0 0;
+    display: inline-block;
+    margin: 0 0 -1px 15px;
+}
+.btn-add{
+	width:100px;
+	height:36px;
+	line-height: 18px;
+	margin-left: 6px;
+	border-radius: 2px
+}
+.icon-add{
+	height:22px;
+	width:22px;
+	background-position: 0 -12px;
+	vertical-align: middle;
+	display:inline-block;
+	padding:0 15px;
+	margin-top:-2px;
+}
+.message-form-group{
+    margin-bottom:25px;
+}
+.bage-default {
+    padding: 7px 8px;
+    margin: 0 10px 10px 0;
+}
+.table>tfoot>tr>td {
+    vertical-align:baseline;
+}
+.right-message{
+	padding-left:10px;
+}
+.btn-blue:hover{
+	background:#0082ff;
+}
+.btn-blue:active{
+	background-color:#0082ff !important;
+	border:none !important;
+	box-shadow:none !important;
+}
+.text-left{
+	left:0;
+	padding: 0 0 10px 0;
+}
+
+/* 参数说明表格 */
+.parameter-table tr td{
+	border:1px solid #eaeaea;
+}
+.parameter-table>thead>tr>td{
+border:1px solid #dcdcdc;
+background:#fafafa;
+
+}
+.parameter-table>tbody>tr>td{
+	border:1px solid #dcdcdc;
+	background:#ffffff;
+	color: #333333;
+}
+.table-bordered>thead>tr>td {
+    border-bottom-width:1px;
+}
+ .title_list {
+    margin-top:20px;
+    margin-bottom:-10px;
+    padding: 0 0px 10px 15px;
+    font-size: 14px;
+}
+.table-bordered>tbody>tr>td {
+    height:48px; 
+     line-height:47px; 
+     padding-top: 0; 
+     padding-bottom: 0; 
+    border-top: 1px solid #dcdcdc; 
+}
+.table-bordered>thead>tr>th {
+    height: 48px;
+    padding-top: 4px;
+    line-height: 35px;
+}
+.parameter-table tbody tr td{
+	 height:48px; 
+     line-height:20px; 
+     padding-top: 0; 
+     padding-bottom: 0; 
+    text-align:center;
+    vertical-align: middle;
+}
+p {
+    margin: 0 0 0;
+}

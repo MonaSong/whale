@@ -1,0 +1,1099 @@
+.whale-well{
+ 	height:49px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom:30px;
+    padding: 0px 0px 0px 0px;
+}
+@charset "UTF-8";
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    font-family: "Microsoft Yahei";
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+ul, 
+.s-menu, 
+dir {
+    display: block;
+    margin:0;
+    padding:0;
+}
+    
+ul {
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a,a:active,a:visited,a:link {
+    color: #333;
+    text-decoration: none;
+}
+
+.block {
+    display: block !important;
+}
+
+.lft {
+    float: left !important;
+}
+
+.rgt {
+    float: right !important;
+}
+
+.blue {
+    color: #428bca !important;
+}
+
+.red {
+    color: #f30026 !important;
+}
+
+.gray {
+    color: #888 !important;
+}
+
+.green {
+    color: #468847 !important;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.icon-animated-bell {
+    display: inline-block;
+    -moz-animation: ringing 2s 5 ease 1s;
+    -webkit-animation: ringing 2s 5 ease 1s;
+    -o-animation: ringing 2s 5 ease 1s;
+    -ms-animation: ringing 2s 5 ease 1s;
+    animation: ringing 2s 5 ease 1s;
+    -moz-transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0
+}
+
+@-moz-keyframes ringing {
+    0% {
+        -moz-transform: rotate(-15deg);
+    }
+
+    2% {
+        -moz-transform: rotate(15deg);
+    }
+
+    4% {
+        -moz-transform: rotate(-18deg);
+    }
+
+    6% {
+        -moz-transform: rotate(18deg);
+    }
+
+    8% {
+        -moz-transform: rotate(-22deg);
+    }
+
+    10% {
+        -moz-transform: rotate(22deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-18deg);
+    }
+
+    14% {
+        -moz-transform: rotate(18deg);
+    }
+
+    16% {
+        -moz-transform: rotate(-12deg);
+    }
+
+    18% {
+        -moz-transform: rotate(12deg);
+    }
+
+    20% {
+        -moz-transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes ringing {
+    0% {
+        -webkit-transform: rotate(-15deg);
+    }
+
+    2% {
+        -webkit-transform: rotate(15deg);
+    }
+
+    4% {
+        -webkit-transform: rotate(-18deg);
+    }
+
+    6% {
+        -webkit-transform: rotate(18deg);
+    }
+
+    8% {
+        -webkit-transform: rotate(-22deg);
+    }
+
+    10% {
+        -webkit-transform: rotate(22deg);
+    }
+
+    12% {
+        -webkit-transform: rotate(-18deg);
+    }
+
+    14% {
+        -webkit-transform: rotate(18deg);
+    }
+
+    16% {
+        -webkit-transform: rotate(-12deg);
+    }
+
+    18% {
+        -webkit-transform: rotate(12deg);
+    }
+
+    20% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@-ms-keyframes ringing {
+    0% {
+        -ms-transform: rotate(-15deg);
+    }
+
+    2% {
+        -ms-transform: rotate(15deg);
+    }
+
+    4% {
+        -ms-transform: rotate(-18deg);
+    }
+
+    6% {
+        -ms-transform: rotate(18deg);
+    }
+
+    8% {
+        -ms-transform: rotate(-22deg);
+    }
+
+    10% {
+        -ms-transform: rotate(22deg);
+    }
+
+    12% {
+        -ms-transform: rotate(-18deg);
+    }
+
+    14% {
+        -ms-transform: rotate(18deg);
+    }
+
+    16% {
+        -ms-transform: rotate(-12deg);
+    }
+
+    18% {
+        -ms-transform: rotate(12deg);
+    }
+
+    20% {
+        -ms-transform: rotate(0deg);
+    }
+}
+
+@keyframes ringing {
+    0% {
+        transform: rotate(-15deg);
+    }
+
+    2% {
+        transform: rotate(15deg);
+    }
+
+    4% {
+        transform: rotate(-18deg);
+    }
+
+    6% {
+        transform: rotate(18deg);
+    }
+
+    8% {
+        transform: rotate(-22deg);
+    }
+
+    10% {
+        transform: rotate(22deg);
+    }
+
+    12% {
+        transform: rotate(-18deg);
+    }
+
+    14% {
+        transform: rotate(18deg);
+    }
+
+    16% {
+        transform: rotate(-12deg);
+    }
+
+    18% {
+        transform: rotate(12deg);
+    }
+
+    20% {
+        transform: rotate(0deg);
+    }
+}
+
+.s-header {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.s-menu {
+    position: relative;
+    top: -70px;
+    left: 0;
+    width: 230px;
+    float: left;
+}
+
+.s-menu:before {
+    display: block;
+    content: " ";
+    position: fixed;
+    z-index: 10;
+    background-color: #fafafa;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 230px;
+}
+
+.s-menu ul {
+    position: relative;
+    z-index: 11;
+    width: 230px;
+    margin-left:30px;
+}
+.s-menu ul:first-child{
+	margin-left:0;
+	padding-left:0;
+}
+
+.s-menu ul li {
+    display: block;
+    min-height: 50px;
+}
+
+.s-menu ul li a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+}
+
+.s-menu ul li.active a {
+    background-color: #fff;
+    color:#f30026;
+}
+
+.s-menu .brand {
+    position: relative;
+    z-index: 30;
+    height: 71px;
+    line-height: 60px;
+    width: 230px;
+    padding-left: 20px;
+    background-color: #f30026;
+    border-bottom: 1px solid #ddd;    
+}
+
+.s-menu .brand b {
+    font-size: 18px;
+    color:#fff;
+}
+
+.icon {
+    display: inline-block !important;
+    position: relative;
+    font-size: 16px;
+    width: 25px;
+    height: 25px;
+    /* background-color: #ddd; */
+    border-radius: 100%;
+    /* top: 7px; */
+    left: -7px;
+}
+
+.s-header .head-rgt {
+    position: relative;
+    float: right;
+    z-index: 13;
+    color:#333;
+}
+
+.s-header .head-rgt .rgt-handle {
+    position: relative;
+    top: 20px;
+}
+.s-header .head-rgt .rgt-handle .icon{
+	color:#333;
+}
+
+.s-header .head-rgt .rgt-handle:first-child {
+    margin-right: 50px;
+}
+
+.head-rgt .rgt-handle b {
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #f30026;
+    color: #fff;
+    border-radius: 100%;
+    z-index: 30;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.s-menu .self-info {
+    position: relative;
+    z-index: 31;
+    padding-left: 30px;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.s-menu .self-info img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+
+.s-menu .self-info .icon-cog {
+    position: absolute;
+    left: 190px;
+    top: 10px;
+}
+
+.self-info .blue {
+    font-size: 12px;
+}
+
+.self-info .info-name {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.s-header .head-lft {
+    position: relative;
+    float: left;
+    top: 20px;
+    margin-left: 276px;
+    color: #333;
+    font-size:22px;    
+}
+
+.s-header .head-lft b{
+	font-weight:normal;
+}
+
+.s-container {
+    margin-top: 30px;
+}
+
+.main-content-container {
+    margin-left: 250px;
+}
+
+.s-page-content {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin-left: 100px; */
+}
+
+/*nav*/
+.s-nav {
+    position: absolute;
+    float: left;
+    background-color: #f5f5f5;
+    border-radius: 2px;
+    width: 100px;
+    text-align: center;
+    padding-top: 30px;
+    z-index: 10000;
+}
+
+.s-nav ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.s-nav ul li:first-child:before {
+    display: none;
+}
+
+.s-nav ul li:before {
+    position: absolute;
+    top: -20px;
+    left: 28px;
+    display: block;
+    content: " ";
+    width: 0;
+    height: 0;
+    border: 10px solid #fff;
+    border-color: #428bca transparent transparent transparent;
+}
+
+.s-nav  li a {
+    display: block;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #ddd;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.s-nav li.passed a{
+	color:#3A8651;
+	background-color:#99F5B5;
+}
+.s-nav  li.passed.active a,
+.s-nav  li.active a  {
+    color: #fff;
+    background-color: #428bca;
+}
+
+.financ-info>ul>li>p {
+    margin-top: 30px;
+}
+
+.s-hr {
+    position: relative;
+    font-size: 0;
+    margin-top: 30px;
+}
+
+.s-hr:before {
+    position: absolute;
+    display: block;
+    content: " ";
+    width: 100%;
+    height: 0;
+    border: 1px solid #333;
+}
+
+.s-hr span {
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: -10px;
+}
+
+.s-hr span b {
+    font-size: 16px;
+    display: inline-block;
+    padding: 0 30px;
+    background-color: #fff;
+}
+
+.s-panel {
+    margin: 0;
+    margin-top: 30px;
+    position: relative;
+}
+
+/*.form-group {
+    padding-top: 30px;
+}
+*/
+#yzym,#tydm {
+    display: none;
+}
+
+.nav.nav-tabs {
+    position: relative;
+    height: 60px;
+}
+
+.nav.nav-tabs:before,
+.nav.nav-tabs:after {
+    display: block !important;
+    content: "" !important;
+    height: 0 !important;
+}
+
+.my-financ {
+    height: 120px;
+}
+
+.step-box {
+    margin-left: 120px;
+}
+
+.whale-data-panel {
+    padding: 0;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    border:1px solid #eee;
+}
+
+.whale-data-panel .whale-data-panel-heading {
+	padding:15px;
+    height: 50px;
+    background-color:#fafafa;
+}
+
+.whale-data-panel .whale-data-panel-heading .whale-status {
+    margin-left: 20px;
+}
+
+.whale-data-panel .whale-data-panel-body {
+    height: 100px;
+    padding: 15px;
+    padding-top: 0;
+}
+
+.whale-step>span {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    min-width:80px;
+    padding:4px 10px;
+    height: 30px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #428bca;
+}
+
+.whale-data-panel-body {
+    background-color: #fff;
+}
+
+.whale-data-panel-body .whale-data-lft {
+    /* width:300px; */
+    height: 100px;
+    border-right: 1px solid #ddd;
+}
+
+.whale-data-panel-body .whale-data-rgt {
+    margin-top: 10px;
+}
+
+.whale-data-panel-body .whale-data-lft .whale-step {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.whale-data-panel-body .whale-data-lft .whale-step-info {
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-left: 100px;
+}
+
+
+.info-name .user-name{
+	font-size:16px;
+}
+.info-name .user-role{
+	font-size:12px;
+	font-weight:normal;
+	color:#666;
+}
+
+/*whale大背景*/
+.whale-tab{
+	padding:15px;
+	background-color:#fff;
+}
+
+/*whale项目的选项卡，依赖于bootstrap的选项卡*/
+.whale-tab .nav-tabs{
+	border-bottom: 0;
+}
+.whale-tab .nav-tabs  li{
+	border-bottom:2px solid #eee;
+}
+
+.whale-tab  .nav-tabs>li>a:hover{
+	background-color:transparent;
+	border:1px solid transparent;
+}
+.whale-tab .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+	color: #f30026;
+    background-color: transparent;
+    border-width: 0;
+    border-bottom:2px solid #000;
+    cursor: default;
+}
+
+/*结束 whale 风格选项卡*/
+
+/*新增融资*/
+.tabbable{
+	position:relative;
+}
+
+.add-new-finac{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+
+/*打开关闭按钮*/
+.animate-checkbox{
+    position: relative;
+    display: inline-block;
+    width:60px;
+    height:30px;
+    border-radius: 15px;
+    background-color: #ffa186;
+    box-shadow: 1px 0 3px #eee;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.animate-checkbox input{
+    position: absolute;
+    top:0;
+    left:0;
+    height:0;
+    width:0;
+    z-index: 1;
+}
+.animate-checkbox span{
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: #62ca3b;
+    width:30px;
+    height: 30px;
+    border-radius: 15px;
+    z-index: 2;
+    transition: width linear .2s;
+    font-style: normal;
+}
+.animate-checkbox span:before{
+    display: block;
+    position: absolute;
+    content:" ";
+    z-index: 11;
+    left:0;
+    top:0;
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color:#fff;
+    transition: left linear .2s;
+}
+.animate-checkbox input[type="checkbox"]:checked+span{
+    width:60px;
+    transition: width linear .2s;
+}
+.animate-checkbox input[type="checkbox"]:checked+span:before{
+    left:30px;
+    transition: left linear .2s;
+}
+.animate-checkbox .off{
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    font-weight: 800;
+    z-index: 10;
+    color: #fff;
+    top:5px;
+    right: 3px;
+}
+.animate-checkbox .on{
+    z-index: 10;
+    position: relative;
+    display: inline-block;
+    top:5px;
+    left:3px;
+    width: 20px;
+    height: 30px;
+    color: #fff;
+}
+
+/*打开*/
+.animate-checkbox input[type="checkbox"]:checked+span .on{
+    transition: opacity linear .2s;
+    opacity: 1;
+}
+.animate-checkbox input[type="checkbox"]:checked+span+b{
+    transition: opacity linear .2s;
+    opacity: 0;
+}
+
+/*关闭*/
+.animate-checkbox input[type="checkbox"]+span .on{
+    transition: opacity linear .2s;
+    opacity: 0;
+}
+.animate-checkbox input[type="checkbox"]+span+b{
+    transition: opacity linear .2s;
+    opacity: 1;
+} 
+/*结束打开关闭按钮*/
+
+/*表单组件形式抽取*/
+.whale-pane-heading{
+    margin: 30px;
+    border-bottom: 2px solid #eee;
+    height: 30px;
+    text-align: center;
+
+}
+.whale-pane-heading .whale-pane-title{
+    position: relative;
+    top:10px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+
+.whale-pane .whale-pane-body{
+    padding: 30px;
+}
+/*结束表单组件形式抽取*/
+
+/*数据记录面板形式展示*/
+.data-list{
+    background-color: #efefef;
+    border-radius: 5px;
+    padding: 15px;
+}
+.data-list .data-list-title{
+	color:#333;
+}
+.data-list-body{
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.data-list-body .data-list-left{
+    height: 100px;
+    width:200px;
+    padding-right: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-right:2px solid #eee;
+}
+.data-list-body .data-list-left{
+    padding-top:30px;
+}
+
+.data-list-body .data-list-right{
+    padding-left:200px;
+    padding-top:10px;
+}
+.whale-bage{
+	display: inline-block;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+.bage-blue{   
+    background-color:rgba(0, 153, 255, 1);       
+}
+.bage-blue:hover{
+	background-color:rgba(0, 204, 255, 1); 
+}
+.bage-red{
+	background-color:rgba(0, 153, 255, 1);     
+}
+.bage-red:hover{
+	background-color:rgba(0, 204, 255, 1); 
+}
+/*结束 数据记录面板形式展示*/
+
+/*表单验证*/
+input.error+span{
+    display: block;
+    position: absolute;
+    top: -50px;
+    left:0;
+    padding: 10px;
+    min-width: 120px;
+    max-width: 300px;
+    border: 1px solid #feb4c0;
+    background-color: #fff2f5;
+}
+input+span:before{
+    display: none;
+}
+input.error+span:before{
+    position: absolute;
+    bottom: -10px;
+    display: block;
+    width: 20px;
+    height: 10px;
+    content: "";
+    background: url(../../imgs/validate/img.png) no-repeat;
+    background-position: 0 -15px;
+    left: 25px;
+    z-index: 12;
+
+}
+
+.w-icon-error{
+    position: absolute;
+    right: 10px;
+    top:5px;
+    display: inline-block;
+    width:14px;
+    height: 14px;
+    content: "";
+    background: url(../../imgs/validate/img.png) no-repeat;
+    background-position: 0 0;
+}
+.success{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    padding-left: 14px;
+    width: 14px;
+    height: 14px;
+    background: url(../../imgs/validate/img.png) no-repeat;
+    background-position: -15px 0;
+}
+.w-icon-search{
+	position:absolute;
+	display:inline-block;
+	width:18px;
+	height:18px;
+	background:url(../../imgs/validate/img.png) no-repeat;
+	background-position:0 -26;
+}
+/*结束表单验证*/
+
+/*界面主标题信息*/
+.whale-well{
+    height: 49px;
+    padding:0px 15px 15px 15px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom:30px;
+}
+.whale-well.whale-well-min{
+	height:50px;
+}
+.whale-well.whale-well-min .whale-well-title
+{
+    margin-top: -15px;
+}
+.whale-well.whale-well-min .search-bar {
+	 margin-top: -24px;
+}
+
+.whale-well-headding{
+    width: 150px;
+}
+.whale-well-headding .whale-well-title{
+    font-weight: 800;
+    color:#333;
+}
+.whale-well-body{
+    padding-left: 160px;
+    padding-right: 210px;
+}
+.whale-well .whale-well-footer{
+    width: 200px;
+}
+.whale-well .search-bar{
+    position: relative;
+}
+.whale-well .search-bar input{
+    width: 198px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+    padding: 4px 10px;
+}
+.w-icon-search{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* border-radius: 100%;
+    border: 2px solid #428bca; */
+    cursor: pointer;
+    background:url(../../imgs/validate/img.png) no-repeat;
+    background-position:0 -26px;
+}
+/*结束 界面主标题信息修改*/
+
+/*tab 进行中*/
+.underway{
+	margin-left: 200px;
+	font-size: 14px;
+	color:#FF0000;
+
+}
+.btn-primary{
+	background-color: rgba(0, 153, 255, 1);
+	border-color: rgba(0, 153, 255, 1);
+}
+
+/*风险提示container*/
+.description{
+            width: 100%;height:100px;
+            background-color: red
+
+        }
+
+        textarea{
+    width:100%;
+    height: 100px;
+    max-width:100%;
+    max-height: 100px;
+        }
+        .a-upload {
+    padding: 4px 10px;
+    height: 40px;
+    line-height: 30px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.a-upload:hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
+.upload{
+width:100px;
+height:100px;
+float: left;
+
+}
+.modal-footer {
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+
+.data-list-desation{
+    width: 100%;
+    height:120px;
+
+}
+.data-list-heading li{
+    list-style: none;
+height: 30px
+width:80px;
+float: left;
+}
+.risk_description{
+    height:40px;
+
+}
+.btn {
+    display: inline-block;
+    padding: 6px 20px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+    height:40px;
+}
+.modal-footer .btn+.btn {
+    margin-bottom: 0;
+    margin-left:40px;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #1989fa;
+    border-color: #1989fa;
+}
+.left-menu ul li{
+    margin-left: 20px;
+    margin-top:20px;
+}
+.left-menu>ul>li:after {
+    display: block;
+    height:35px;
+    width: 2px;
+    content: "";
+    background-color: #80CA2B;
+    position: relative;
+    left: 37px;
+    top: -68px;
+}
+.modal-footer {
+    padding: 15px;
+    text-align:center;
+     border-top:none; 
+}
+/*结束风险提示container*/

@@ -1,0 +1,264 @@
+body {
+    background-color: #ffffff;
+}
+.navbar {
+    position: relative;
+    min-height: 40px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    background-color: #f30026;
+    height:300px;
+    z-index:-1;
+}
+.navbar-h img{
+    padding:40px 50px;
+}
+.container img{
+    display:block;
+    width:100%;
+    margin:0 auto;
+}
+.footer{
+    background:#ffffff;
+    height:304px;
+    position:absolute;
+    bottom:0;
+}
+.footer-img img{
+    position:absolute;
+    bottom:0;
+}
+.login{
+    display:inline-block;
+    width:600px;
+    height:500px;
+    background:#ffffff;
+    position: relative; 
+    top:40%;
+    margin-top: -150px; 
+    z-index:11;
+    border:1px solid #eaeaea;
+    box-shawn:1px 1px 3px #e8e8e8;
+}
+.login-title{
+    width:600px;
+    height:30px;
+    padding:40px;
+    text-align:center;
+    font-size:24px;
+    
+}
+.login-member{
+    color:#f30026;
+}
+.forms{
+    width:300px;
+    height: 40px;
+    display: block;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.regiser{
+    width:300px;
+    height:38px;
+    float:left;
+    position:relative;
+}
+.form-reister{
+    height:38px;
+    width:98px;
+    float:left;
+    line-height:38px;
+    text-align:center;
+}
+.regiser .creat_code {
+    position: relative;
+    top: -38px;
+    right: -198px;
+    display: inline-block;
+    width: 101px;
+    height:38px;
+    border-radius:0;
+    border-left: 1px solid #e5e5e5;
+    background-color: #fff;
+}
+.form-item-account{
+    position:relative;
+}
+.form-item-account i{
+    display:inline-block;
+    z-index:100;
+}
+.regiser input{
+    text-indent:25px;
+}
+
+
+.icon-username{
+    vertical-align: middle;
+    display:inline-block;
+    width:20px;
+    height:20px;
+    position:absolute;
+    left: 10px;
+    top:9px;
+    background:url(../../imgs/login/icon-login.png) no-repeat;
+}
+.imgs{
+    background-position: 0 -19px;
+}
+.imgs-password{
+	background-position: 0 1px;
+}
+.submit-file{
+	width:300px;
+}
+.login-remember{
+	width:300px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:25px;
+	height:40px;
+}
+.next-login{
+	padding:0 5px;
+	 cursor:pointer;
+}
+.u-login-container{
+    display:inline-block;
+    text-align:center;
+    width:100% !important;
+}
+label.error {
+    position: absolute;
+    color: #f30026;
+    left:0;
+}
+/* 右上角x图片 */
+.message-img{
+    background:url(../../imgs/remind/icon_tag.png) no-repeat;
+}
+.icon-delete{
+    width:18px;
+    height:18px;
+    background-position:0 -48px;
+    color:#fafafa;
+    display: inline-block;
+}
+/* 模态框 修改*/
+.text-static {
+    padding-top: 10px;
+    float: left;
+}
+.modal-footer {
+    border-top:none;
+}
+.admin_user{
+    text-align:left;
+    color:#000000;
+}
+.modal-title{
+    color:#666666;
+    height:36px;
+    line-height:36px;
+}
+.modal-header{
+    padding:0 15px;
+    background:#fafafa;
+    color:#666666;
+}
+.modal-footer {
+    padding:20px;
+}
+.modal-body {
+    padding: 15px;
+}
+.modal-content{
+border-radius:0;
+box-shadow:none;
+}
+.modal-footer .btn+.btn {
+    margin-left: 10px;
+}
+
+.form-control{
+    border-radius:2px;
+}
+/* 取消 确定按钮 */
+.btn-choose .btn-away,.btn-choose .btn-assign{
+    padding:7px 40px;
+    border-radius: 2px;
+}
+.control-label {
+     left:0;
+}
+.icon-delete{
+    width:18px;
+    height:18px;
+    background-position:0 -48px;
+    color:#fafafa;
+    display: inline-block;
+}
+.close {
+     opacity:1;
+}
+/* .modal-header .close {
+    margin-top:8px;
+} */
+.login-right{
+	padding-left:0;
+}
+.login-left{
+	padding-right:5px;
+}
+.code{
+	position: relative;
+    top: -35px;
+    float:right;
+    display: inline-block;
+    width: 100px;
+    height: 32px;
+    line-height:12px;
+    border-radius:2px;
+    margin-right:4px;
+    cursor:pointer;
+    color:#ffffff;
+}
+
+
+.login-right label.error {
+    position: absolute;
+    color: #f30026;
+    left:0;
+}
+.form-group {
+    margin-bottom: 25px;
+}
+.btn-red {
+    padding: 10px 6px;
+}
+.passwordtxt{
+	height:38px  !important;
+}
+
+.forget{
+	color:#0099ff;
+    cursor: pointer;
+}
+}
+.forget:hover{
+	color:#0099ff;
+}
+.forget:active{
+    color:#0099ff;
+    box-shadow:none !important;
+    outline: none !important; 
+}
+a:focus {
+    color:#0099ff;
+}
+.mobile-error{
+    color:#f30026;
+    position: relative;
+    left: -93px;
+}

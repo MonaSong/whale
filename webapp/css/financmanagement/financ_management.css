@@ -1,0 +1,178 @@
+[data-businessType="2"],
+[data-yizhaoyima="0"]
+{
+    display: none;
+}
+
+.form-group.first-group{
+    height:50px;
+}
+
+.needclaim:before{
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -6px;
+    background-color: #f30026;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    content: "!";
+    border-radius: 100%;
+    line-height:20px;
+    border:1px solid #ffffff;
+}
+
+[data-pane-id],
+[data-audit-status]{
+   display: none; 
+}
+[data-pane-id="winery"]{
+    min-height: 480px;
+}
+
+[data-winery-opinion]{
+    display: none;
+}
+
+[data-pledge-pane]{
+    padding-top: 15px;
+    border-bottom:1px dashed #eee;
+    margin-bottom: 15px;
+}
+
+[data-pledge-pane] .fa-trash.red{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+[data-passed="winery"]{
+    display: none;
+}
+
+.small-bage{
+    display: inline-block;
+    padding:4px 8px;
+    margin-right: 15px;
+    border:1px solid #eaeaea;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.form-data-pane{
+    background-color: transparent;
+}
+.s-page-content .whale-tab{
+    margin-bottom: 30px;
+}
+.finance-title.black{
+    margin-left: 15px;    
+}
+
+.license-type-info label input{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.left-menu>ul>li.small-triangle:before {
+    right: -1px;
+    top: -1px;
+}
+.btn-fixed-width{
+    position: relative;
+    top: 8px;
+    left: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 2px;
+}
+.long-text{
+    display: inline-block;
+    width: 125px;
+    padding-left: 0;
+}
+
+.lg-long-text{
+    display: inline-block;
+    width: 250px;
+    padding-left: 0;
+}
+
+.sex-info-container label:first-child{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.sex-info-container label input{
+    display: inline-block;
+    margin-right: 5px;
+}
+.only-text{
+    display: inline-block;
+    width: 65px;
+    padding: 0;
+    position: relative;
+    top: 10px;
+    left: -5px;
+}
+.only-input{
+    position: relative;
+    top: 10px;
+}
+.assessment-time{
+    position: relative;
+    left: -14px; 
+}
+.assessment-time-input{
+    position: relative;
+    left: -63px;
+    z-index: 10;
+}
+
+.loan-term-text{
+    position: relative;
+    left: -122px;
+}
+
+@media (max-width:990px){
+    .only-text{
+        display: block;
+        width: auto;
+        padding-left: 20px;
+        position: relative;
+        top: 10px;
+        left: -5px; 
+    }
+
+    .assessment-time {
+        position: relative;
+        left: 15px;
+    }
+
+    .assessment-time-input {
+        position: relative;
+        left: 0;
+        z-index: 10;
+    }
+
+    .loan-term-text{
+        position: relative;
+        left: 0;
+    }
+}
+
+/* <b class="col-md-3 text-static" data-role="upload-pic">请上传图片</b> */
+
+[data-role="upload-pic"],
+[data-role="upload-video"]{
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+
+.sample-upload-pic{
+    margin-bottom: 20px;
+}
+
+.winery-data-lsit-right{
+    padding-top: 20px;
+}

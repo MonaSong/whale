@@ -1,0 +1,135 @@
+.left-menu>ul>li.small-triangle:before {
+    right: -1px;
+    top: -1px;
+}
+.matuirty{
+	border:1px solid #eaeaea;
+}
+.winery_receipt{
+	height:280px;
+}
+
+.form-horizontal .control-img{
+	padding-top:0;
+}
+.start_content p{
+	text-align:center;
+	color:#333333;
+	margin: 0 0 14px;
+}
+.start-content .start_img{
+	background:url(../../imgs/maturity/complete_icon.png) no-repeat;
+	width:58px;
+	height:58px;
+	display:block;
+	margin:0 auto;
+}
+.start_content{
+	padding:30px;
+}
+.needclaim:before {
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -6px;
+    background-color: #f30026;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    content: "!";
+    border-radius: 100%;
+    line-height: 20px;
+    border: 1px solid #ffffff;
+}
+.form-group {
+    margin-bottom:25px;
+}
+.winert_top{
+	position: relative;
+	top:1px;
+}
+.skip-bage{
+    padding: 0 !important;
+    line-height: 36px !important;
+    width: 86px;
+    height: 36px;
+    border-radius: 20px;
+}
+.txt{
+	line-height:38px;
+	text-indent: -5px;
+}
+/*上传图片样式*/
+.register_div{
+    width:102px;
+    height:100px;
+    border:1px solid #eaeaea;
+}
+.upfilebox input {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 9;
+    opacity: 0;
+}
+.upfilebox .lable {
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+}
+[data-role="delete-file"]{
+    position: absolute;
+    top: -5px;
+    right: 440px;
+    z-index: 11;
+    display: none;
+    width: 20px;
+    height: 20px;
+    background-color: #f30026;
+    border-radius: 100%;
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+    line-height: 17px;
+    z-index:30;
+}
+.hide{
+    display:none;
+}
+.lable-pic{
+    background: url(../../imgs/common/common-icon-img.png) no-repeat;
+}
+.upfilebox img{
+	position: absolute;
+	z-index:111;
+}
+.lable {
+    background-position: -110px -48px;
+}
+.img{
+    position:absolute;
+    z-index:20;
+    cursor:pointer;
+}
+.modal-title{
+    color:#666666;
+}
+[for="wineryLivePic"],[for="wineryreceipt"],[for="release_policy"]{
+    position: absolute;
+    color: #f30026;
+    top:100px;
+}
+.start_show span{
+	color:#666666;
+}
+.start_show b{
+    color:#333333;
+}
+.start-ression{
+	margin-top:30px;
+}

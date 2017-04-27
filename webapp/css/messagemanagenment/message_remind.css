@@ -1,0 +1,203 @@
+/* yjx */
+.table tr td{
+	color:#333333;
+}
+.table tr td a{
+	color:#0099ff;
+}
+.message_detaile{
+	margin-bottom:10px;
+}
+.trash_icon,.remind_hasread{
+    padding:5px 9px;
+    border:none;
+    width:15px;
+    height:18px;
+}
+.message-img{
+	background:url(../../imgs/remind/icon_tag.png) no-repeat;
+}
+.message-img:focus,
+.message-img:active:focus,
+.message-img.active:focus,
+.message-img.focus,
+.message-img:active.focus,
+.message-img.active.focus {
+    outline: none;          
+}
+.trash_icon{
+	width:18px;
+	height:18px;
+    background-position:0 -12px
+}
+.read{
+text-align:center;
+margin-left:40px;
+}
+.trash_icon .active{
+	border:none;
+}
+.remind_hasread{
+    width:18px;
+    height:18px;
+    background-position:0 -30px;
+    margin-left:40px;
+}
+.table-bordered>thead>tr>td{
+border:none;
+}
+.header_remind{
+	margin-top:10px;
+}
+.table-bordered>thead>tr>td{
+	border-bottom:1px solid #dcdcdc;
+}
+.table>tbody>tr>td{
+ height:48px;
+ padding:12px 12px;
+ position: relative;
+ border-bottom:1px solid #dcdcdc;
+ color:#333333;
+ vertical-align: middle;
+}
+.table-bordered>tbody>tr>td {
+    height:48px;
+    line-height:20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.table .messagefinace tr td{
+ padding:8px 12px;
+}
+.table>thead>tr>td{
+height:48px;
+padding:13px;
+color:#666666;
+
+}
+
+input:focus{
+	box-shadow: none!important;
+}
+/* checkbox修改 */
+input[type=checkbox]{
+        -webkit-appearance: none;
+        appearance: none;
+        width: 13px;
+        height: 13px;
+        cursor: pointer;
+        background: #fff;
+        border-radius:2px;
+        border: 1px solid #dcdcdc;
+        position: relative;
+}
+input[type=checkbox]:active,input[type=radio]:active {
+        border:none;
+        border:#ffffff;
+}       
+input[type=checkbox]:checked::after {
+        content: url(../../imgs/remind/b-box.png);
+        display: block;
+        position: absolute;
+        top:-3px;
+        
+}
+input[type=checkbox]:focus {
+        outline: none;
+        border-color:#dcdcdc;
+}
+.btn-choose .delete{
+    margin-left:15px;
+}
+/* 模态框 修改*/
+.modal-footer {
+    border-top:none;
+}
+.admin_user{
+	text-align:left;
+	color:#000000;
+}
+.modal-title{
+	color:#666666;
+	height:36px;
+	line-height:36px;
+}
+.modal-header{
+	padding:0 15px;
+	background:#fafafa;
+	color:#666666;
+}
+.modal-body {
+    padding:20px 15px;
+    color:#333333;
+}
+.modal-footer {
+    padding:15px;
+}
+.modal-content{
+border-radius:0;
+box-shadow:none;
+}
+.modal-footer .btn+.btn {
+    margin-left: 10px;
+}
+/* 表格条纹修改 */
+.table-striped>thead>tr{
+    background-color: #fafafa;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #fafafa;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+.table>tbody>tr:hover{
+    background:#eaeaea;
+}
+.modal-dialog {
+    position: absolute;
+    left:34.4%;
+    top: 25%;
+    transform:translateX(-50%) translateY(-50%);
+}
+.form-control{
+	border-radius:2px;
+}
+.whale-remind{
+	border:1px solid #eaeaea;
+}
+.icon-delete{
+	width:18px;
+    height:18px;
+    background-position:0 -48px;
+    color:#fafafa;
+    display: inline-block;
+}
+.form-control[disabled]{
+	background-color:#fafafa;
+}
+
+/* 取消 确定按钮 */
+.btn-choose .btn-away,.btn-choose .btn-assign{
+    padding:7px 40px;
+    border-radius: 2px;
+}
+.close {
+     opacity:1;
+}
+.modal-header .close {
+    margin-top:8px;
+}
+.time-item{
+	color:#999999;
+}
+.black{
+	color:#333333;
+}
+.checkbox-list{
+    width:10px;
+    height:13px;
+}
+.msg-bold{
+	font-weight: 800;
+}

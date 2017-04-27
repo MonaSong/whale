@@ -1,0 +1,33 @@
+body.dragging, body.dragging * {
+	cursor: move !important;
+}
+
+.dragged {
+	position: absolute;
+	opacity: 0.5;
+	z-index: 2000;
+	background-color:red;
+}
+
+
+ol.sMenu li.placeholder:before {
+	position: absolute;
+	/** Define arrowhead **/
+}
+
+ol.sMenu li {
+	border: 1px solid #e4e4e4;
+	/* list-style-type: none; */
+	display: block;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	color: #0088cc;
+	cursor: pointer;
+}
+
+ol.sMenu .menu_item_image {
+	width: 16px;
+	height: 16px;
+}
+

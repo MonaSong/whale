@@ -1,0 +1,77 @@
+diff a/whale/src/main/webapp/js/tools/tools.js b/whale/src/main/webapp/js/tools/tools.js	(rejected hunks)
+@@ -345,4 +345,73 @@
+         return this.optional(element) || (length == 6 && mobile.test(value));
+     }, "è¯·æ­£ç¡®çš„éªŒè¯ç ");
+ 
+-    window.timeInterval = 60000;
+\ No newline at end of file
++    window.timeInterval = 60000;
++=======
++//ä¸Šä¼ å¤šä¸ªæ–‡ä»¶
++//è¯·æ±‚èžèµ„ç”³è¯·çš„æŽ¥å£å¯¹è±¡
++
++/**
++ * @postMutipleData
++ * @param type string 'æäº¤é‚£ç§ç±»åž‹'
++ * @param data object 'æäº¤çš„æ•°æ® data.files data.fileNames data.inputData'
++ * @param opt_suc function 'è¯·æ±‚æˆåŠŸçš„å›žè°ƒ'
++ * @param opt_fail function 'è¯·æ±‚å¤±è´¥çš„å›žè°ƒ'
++ */
++postMutipleData = function(data,opt_suc,opt_fail){
++    var url = contextPath+'/finance/save1';
++    var formData = new FormData();
++
++    if(data.fileNames.length<1){
++        return
++    }
++    if(data.files.length<1){
++        return
++    }
++
++    $.each(data.files,function(k,info_name){
++        formData.append('files',document.getElementById(info_name).files[0])
++    })
++
++    $.each(data.fileNames,function(i,item){
++        formData.append('fileNames',item);
++    })
++
++    formData.append('requestBean', new Blob([JSON.stringify(data.inputData)], {
++        type: "application/json"
++    }));
++
++    $.ajax({
++        type:'post',
++        data: formData,
++        url:url,
++        contentType:false,
++        processData:false,
++        success:function(msg){
++            if($.isFunction(opt_suc)){
++                opt_suc(msg)
++            }
++        },
++        error:function(msg){
++            if($.isFunction(opt_fail)){
++                opt_fail(msg)
++            }
++        }
++    });
++}
++
++
++//ä¾‹å­
++	/*var data = {};
++	data.files = ['businessPic','accountLicensePic','productLicensePic','institutionCreitPic','corporationFrontPic','corporationBackPic','wineryLivePic','organizationCodePic'];
++	data.fileNames = ['businessPic','accountLicensePic','productLicensePic','institutionCreitPic','corporationFrontPic','corporationBackPic','wineryLivePic','organizationCodePic'];
++	data.inputData = {
++	        applicantCompany:$('[name="applicantCompany"]').val(),
++	}
++	financManagementRequesData.post_financ_data('1',data,function(data){
++	    console.debug(data)
++	},function(data){
++	
++	})
++
++*/
++>>>>>>> ac5fe7b76e03058aa85102af69c1ea1901134749

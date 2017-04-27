@@ -1,0 +1,103 @@
+body.dragging, body.dragging * {
+	cursor: move !important;
+}
+
+.dragged {
+	position: absolute;
+	opacity: 0.5;
+	z-index: 2000;
+}
+
+ol.sMenu li.placeholder {
+	position: relative;
+	/** More li styles **/
+	/** 拖到目标提示位置的css样式 **/
+	height: 34px;
+	background-color: rgba(49, 160, 47, 0.62);
+	border: 1px dashed ;
+}
+
+ol.sMenu li.placeholder:before {
+	position: absolute;
+	/** Define arrowhead **/
+}
+
+ol.sMenu li {
+	border: 1px solid #e4e4e4;
+	/* list-style-type: none; */
+	display: block;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	color: #0088cc;
+	cursor: pointer;
+}
+
+ol.sMenu .menu_item_image {
+	width: 16px;
+	height: 16px;
+}
+
+ol.sMenu a.edit_link {
+	float: right;
+}
+
+ol.sMenu a.delete_item_button {
+	float: right;
+}
+
+ol.sMenu a.edit_link {
+	display: inline-block;
+	width: 60px;
+	text-align: left;
+	position: relative;
+}
+
+ol.sMenu a.edit_link:before {
+	/* css生成三角形  */
+	position: absolute;
+	content: "";
+	height: 0;
+	width: 0;
+	right: 10px;
+	top: 8px;
+	border: 8px solid #fff;
+	border-color: #428bca transparent transparent transparent;
+}
+
+ol.sMenu a.edit_link.active:before {
+	top: -4px;
+	border-color: transparent transparent #428bca transparent;
+}
+
+.sMenu li{
+	background-color: #fff;
+}
+
+.detail-content{
+	margin-left: 45px;
+}
+
+.detail-content .input-group{
+	margin-bottom: 10px;
+}
+
+.s-page-content input[type="button"]{
+	display: inline-block;
+	margin-left: 45px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.detail-content .input-group-addon{
+	background-color: #0099ff;
+	color: #fff;
+	border: 1px solid #0099ff;
+}
+.btn_add{
+	background-color:#0099ff;
+	color:#ffffff;
+}
+.btn_add:hover,.btn_add:focus{
+	color:#fff !important;
+}

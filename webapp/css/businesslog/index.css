@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+.dataTable_div {
+	font-size: 10px;
+}
+
+#businesslog_table tbody tr td.success_type {
+	color: green;
+}
+
+#businesslog_table tbody tr td.fail_type {
+    color: red;
+    font-size:1.5em;
+}

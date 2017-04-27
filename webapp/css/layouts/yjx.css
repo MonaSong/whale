@@ -1,0 +1,594 @@
+/*左侧导航菜单*/
+.menu ul li{
+    width:229px; 
+}
+.menu ul li:hover{
+    background:#f5f5f5;
+}
+.s-menu ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    position: relative; 
+}
+
+.s-page-content .whale-well-max{
+    padding: 30px 15px 15px 15px;
+    border-radius:2px;
+    height:150px;
+    border:1px solid #eaeaea;
+}
+
+/*搜索*/
+.icon-search{
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+}
+/*酒厂管理审核*/
+.data-list .data-list-body{
+    padding:21px;
+    border-radius:0;
+}
+.data-list-body .data-list-left {
+    padding-top: 25px;
+}
+.data-list-left .bage-red,
+.data-list-left .bage-green,
+.data-list-left .bage-blue{
+    font-size:14px;
+    height:36px;
+    line-height:26px;
+    border-radius:20px;
+}
+.data-list-left .bage-blue:hover{
+    background-color:#0066cc;
+}
+.data-list-left .bage-blue{
+    background-color: #0099ff;
+}
+.data-list-left .bage-green:hover{
+    background-color:#009933;
+}
+.data-list-left .bage-red:hover{
+    background-color:#cf102d;
+}
+.increasingly p b{
+    font-size:22px;
+    text-align: center;
+    display:inline-block;
+    vertical-align: middle;
+}
+.whale-well-title{
+    font-size:24px;
+    line-height: 40px;
+}
+.data-list-heading .data-list-title{
+    padding: 8px 10px;
+}
+.data-list .data-list-body .data-list-left {
+    height:88px;
+    width: 298px;
+    padding-right: 8px;
+    border-right: 2px solid #eee;
+}
+
+.data-list .data-list-body .data-list-right {
+    padding-left: 300px;
+}
+.edit-data{
+    background:#ffffff;
+    border:none;
+    color:red;
+}
+.edit-data:hover{
+    background:#ffffff;
+    color:red;
+}
+.edit-data:active {
+    background-color:#ffffff !important;
+    box-shadow:none;
+    border:none;
+    color:red;
+}
+.distillery{
+    margin-top:5px;
+    color:#333333;
+}
+.user-define-select {
+    background:#eee;
+    box-shadow:none;
+}
+
+.data-list .data-list-body .data-list-left span {
+    padding-left:20px;
+    top:1px;
+}
+.whale-well .cephalosome{
+    height: 80px;
+    width: 160px;
+    border-right: 2px solid #eee;
+}
+ .cephalosome h4{
+  margin:25px 16px;
+  display: inline-block;
+ }
+ 
+/*tab菜单*/
+.whale-tab .nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:hover, 
+.nav-tabs>li.active>a:focus {
+    top: 2px;
+}
+/*酒厂管理头部*/
+.s-page-content .whale-well{
+    padding: 35px 15px 15px 25px;
+}
+.increasingly p{
+    text-align:center;
+}
+
+.increasingly{
+    margin-top:8px;
+}
+.s-page-content .whale-well .search-bar input {
+    width: 198px;
+    border-radius: 20px;
+background-color:#fafafa;
+    padding: 4px 10px;
+}
+.w-icon-search{
+    top: 10px;
+    right:14px;
+}
+.s-page-content .whale-well .search-bar input {
+    border-radius: 20px;
+    padding: 4px 14px;
+    margin-top:10px;
+}
+/*结束搜索框*/
+
+/*酒厂信息*/
+.tab-pane .data-list {
+    border-radius:2px;
+    padding:0px;
+    height:173px;
+    border:1px solid #eee;
+}
+/*信息审核*/
+[data-operater-bottom]{
+    display: none;
+}
+.text-static .blue{
+    color:#01aff1 !important;
+}
+.whale-pane-title{
+    color:#666666;
+    font-size:14px;
+}
+.form-group .black{
+    color: #333333;
+    font-family: "Microsoft YaHei","微软雅黑";
+}
+
+[data-role="font-length"]{
+    color:#999;
+}
+/*结束信息审核*/
+
+/*取消确认按钮*/
+.btn-red{
+    background:#f30026;
+    border:none;
+    line-height:20px;
+    padding: 10px 12px;
+    transition: background 0.2s, transform 2s;
+    -webkit-transition:  background 0.2s, -webkit-transform 2s;
+    color:#ffffff;
+     border:1px solid #f30026;
+}
+.btn-red:active{
+    background:#f30026;
+    transition: background 0.2s, transform 2s;
+    -webkit-transition:  background 0.2s, -webkit-transform 2s;
+}
+input:focus{
+    box-shadow: none!important;
+    outline: none !important;
+}
+.btn-choose .btn-red:hover{
+    background:#cf102d;
+    border:1px solid #cf102d;
+}
+.btn-choose .btn-red[disabled]:hover{
+    background:#cf102d;
+}
+.btn-gray{
+    background:#ffffff;
+    color:#333333;
+    text-align: center;
+    padding: 10px 12px;
+}
+.btn-gray:hover{
+    background:#eaeaea;
+}
+.btn-blue{
+    background:#0099ff;
+    transition: background 0.2s, transform 2s;
+    color:#ffffff;
+     border:1px solid #0099ff;
+}
+.btn-choose .btn-cancel{
+    padding:10px 60px;
+    border-radius:2px;
+}
+.btn-choose .btn-confirm{
+    padding:10px 60px;
+    border-radius:2px;
+}
+/*结束取消确认按钮*/
+/*tab切换*/
+.nav-tabs>li>a {
+    font-size:16px;
+    color:#666666;
+}
+.s-page-content .whale-tab {
+    padding: 4px 10px;
+    border:1px solid #eaeaea;
+}
+b{
+    font-weight:normal;
+}
+/*首页头部*/
+.header-bar{
+    height:40px;
+}
+
+.header-bar ul li{
+    line-height:38px;
+    width:80px;
+}
+.header-bar ul .hotline{
+    width: 150px;
+}
+
+.nav-left-header{
+    width:300px;
+    float: left;
+}
+
+.nav{
+    margin-top:0;
+    border:none;
+}
+.nav-header ul li a{
+    color: #333333;
+}
+.nav-header ul li a:hover{
+    color:#f30026;
+}
+.head ul li{
+     float:left;  
+     text-align:center; 
+     cursor: pointer;
+}
+.nav-left-header span{
+    font-size:20px;
+}
+
+/*入驻申请*/
+.form-group-sm .form-control {
+    height: 40px;
+    border-radius:2px;
+}
+/*textarea审核意见*/
+textarea.textarea-view{
+    height:100px;
+}
+
+
+/**
+* 定时型消息模板
+*/
+.bage-default{
+    display: inline-block;
+    border:1px solid #f5f5f5;
+    padding: 4px 8px;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.table-bordered>tbody>tr>td{
+    border:none;
+}
+/* 搜索框 */
+input:focus{
+    box-shadow: none!important;
+}
+select:focus{
+    box-shadow: none!important;
+}
+[role="page-bar"]>ul>li:hover{
+border-color:#0099ff;
+}
+/* 状态按钮 */
+.form-control {
+    border-radius:2px;
+    box-shadow:0px 0px 0px 0px;
+}
+.animate-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 1px #c8c8c8;
+}
+/* 修改操作 */
+[data-status="sure"],[data-status="modify"]{
+cursor: pointer;
+}
+[data-status="sure"]{
+    color:#333333;
+}
+[data-status="modify"]{
+    color:#f30026;
+}
+.form-content{
+    padding-top: 50px;
+}
+/* 按钮阴影 */
+.animate-checkbox span:before{
+    box-shadow: 1px 1px 0px 0px #c8c8c8;
+}
+/* checkbox修改 */
+input[type=checkbox]{
+        -webkit-appearance: none;
+        appearance: none;
+        width: 13px;
+        height: 13px;
+        cursor: pointer;
+        background: #fff;
+        border-radius:2px;
+        border: 1px solid #dcdcdc;
+        position: relative;
+}
+input[type=checkbox]:active,input[type=radio]:active {
+        border:none;
+        border:#ffffff;
+}       
+input[type=checkbox]:checked::after {
+        content: url(../../imgs/remind/b-box.png);
+        display: block;
+        position: absolute;
+        top:-3px;
+        
+}
+input[type=checkbox]:focus {
+        outline: none;
+        border-color:#dcdcdc;
+}
+
+
+
+
+/* 首页 */
+.footer {
+    background-color: #f5f5f5;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+@media (max-width:1920px) {
+    .footer-list ul li {
+        float: left;
+        text-align: center;
+        width: 20%;
+    }
+    .footer-bar .widget {
+        width: 14.284%;
+        float: left;
+    }
+}
+@media(max-width:1440px) {
+    .footer-list ul li {
+        float: left;
+        text-align: left;
+        width: 50%;
+    }
+    .footer-bar .widget {
+        width: 25%;
+    }
+}
+@media (max-width:640px) {
+    .footer-list ul li {
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-bar .widget {
+        width: 20%;
+    }
+}
+@media screen and (max-width:1024px) {
+    .footer-list ul li {
+        float: left;
+        text-align: left;
+        width: 40%;
+    }
+    .footer-bar .widget {
+        width: 25%;
+    }
+}
+@media (max-width:640px) {
+    .footer-list ul li {
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+    .footer-bar .widget {
+        width: 50%;
+    }
+}
+.footer-list ul li a {
+    color: #888;
+    text-transform: none;
+}
+.list-service {
+    padding: 30px;
+    border-bottom: 1px solid #ffffff;
+}
+.list-service li a {
+    text-decoration: none;
+}
+.footer-bar .widget p {
+    color: #888;
+}
+.widget p a {
+    color: #888;
+    font-size: 12px;
+    text-decoration: none;
+}
+.phone p {
+    font-size: 12px;
+}
+.footer-bar {
+    padding: 20px;
+}
+.icon-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+li {
+    list-style: none;
+}
+.loan {
+    background:#ffffff;
+    margin-top:30px;
+}
+fieldset {
+    padding: 10px;
+    margin: 10px;
+    color: #333;
+    border: #333333 solid 1px;
+}
+legend {
+    display: block;
+    padding: 0;
+    width: 15%;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+}
+.iconfont {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #0099ff;
+    margin-right:5px;
+}
+.credit img {
+    margin: 0 auto;
+    display: block;
+}
+.content{
+    padding:40px;
+    background:#ffffff;
+    margin-top:30px;
+}
+.navbar{
+    background:#ffffff;
+    border:none;
+    box-shadow:none;
+    border-color:#f5f5f5;
+    border-radius:0;
+}
+.navbar-default .navbar-toggle {
+    border-color:#ddd;
+}
+.navbar-default .navbar-collapse{
+    border-color:#cccccc;
+}
+.navbar .navbar-nav>li>a:hover{
+background:#ffffff;
+color:red;
+}
+.navbar .navbar-nav>li>a{
+    text-shadow: none;
+    color:#888;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#888;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #ddd;
+}
+    .navbar-fixed-top {
+    position:static;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.header ul li{
+float: left;
+padding: 0 20px;
+list-style: none;
+}
+.navbar {
+    position: relative;
+    min-height:40px;
+    margin-bottom:0;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+}
+.nav-header ul li{
+    padding: 0 30px;
+    border: 1px solid #eee;
+}
+.nav-header{
+    border-bottom: 2px solid #cccccc;
+}
+@media (min-width: 768px){
+.navbar-right {
+    float: right!important;
+     margin-right:0; 
+    margin-top: 5px;
+}
+}
+.navbar-header-content{
+    margin-top:30px;
+}
+.header-menu{
+    border-bottom:2px solid #ddd;
+}
+.forget-tabs li{
+margin-right:30px;
+}
+.small-bell{
+ cursor:pointer;
+}
+
+
+
+
+
+
+
+

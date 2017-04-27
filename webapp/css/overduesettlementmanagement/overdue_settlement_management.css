@@ -1,0 +1,74 @@
+[data-pane-id="delivery-notes"]{
+    min-height: 380px;
+}
+
+.s-page-content .whale-well .search-bar input{
+    width: 220px;
+    margin-left: -20px;
+}
+
+.skip-page{
+    display: inline-block;
+    width: 86px;
+    height: 36px;
+}
+
+.text-static [name="compensationAmount"]{
+    position: relative;
+    left: 17px;
+}
+
+@media (max-width:970px){
+    .text-static [name="compensationAmount"]{
+        left: 0;
+    }
+}
+
+@media (max-width:940px){
+    left: 0;
+}
+
+.complete-icon-info{
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    height: 150px;
+    padding-top: 50px;
+    text-align: center; 
+}
+
+.complete-icon-info .form-group:first-child label.text-left{
+    position: relative;
+    top: 16px;
+}
+
+.complete-icon-info .green-complete-icon{
+    position: absolute;
+    left: 185px;
+    top: -10px;
+}
+.static-font{
+    position: relative;
+    top: 9px;
+}
+
+[data-pane-id="start_over_due"] .data-list-right .col-md-4{
+    padding-left: 37px; 
+}
+@media (max-width:970px){
+    [data-pane-id="start_over_due"] .data-list-right .col-md-4{
+        padding-left: 15px; 
+    }
+}
+
+[data-pane-id="start_over_due"] .data-list-right p{
+    color: #666;
+}
+
+[data-pane-id="start_over_due"] .data-list-right p b{
+    color: #333;
+}
+.left-menu>ul>li.small-triangle:before {
+    right: 0;
+    top: -1px;
+}

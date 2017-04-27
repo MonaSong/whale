@@ -1,0 +1,204 @@
+@CHARSET "UTF-8";
+.agency-management{
+    height:1000px;
+    background:#f3f3f3;
+}
+.mywork{
+    position:relative;
+}
+#agencylist tr td:nth-child(7){
+	display:none;
+}
+.hide{
+	display:none;
+}
+
+
+/* yjx */
+.table tr td a{
+    color:#0099ff;
+}
+.table-bordered>thead>tr>td{
+border:none;
+}
+.header_remind{
+    margin-top:10px;
+}
+.table-bordered>thead>tr>td{
+    border-bottom:1px solid #dcdcdc;
+}
+.table>tbody>tr>td{
+  vertical-align:middle;
+   border-bottom:1px solid #dcdcdc;
+   color:#333333;
+}
+.table>thead>tr>td{
+color:#666666;
+
+}
+input:focus{
+    box-shadow: none!important;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+[data-status="sure"],[data-status="modify"]{
+cursor: pointer;
+}
+[data-status="sure"]{
+	color:#333333;
+}
+[data-status="modify"]{
+	color:#f30026;
+}
+/* checkbox修改 */
+input[type=checkbox]{
+        -webkit-appearance: none;
+        appearance: none;
+        width: 13px;
+        height: 13px;
+        cursor: pointer;
+        background: #fff;
+        border-radius:2px;
+        border: 1px solid #dcdcdc;
+        position: relative;
+}
+input[type=checkbox]:active,input[type=radio]:active {
+        border:none;
+        border:#ffffff;
+}       
+input[type=checkbox]:checked::after {
+        content: url(../../imgs/remind/b-box.png);
+        display: block;
+        position: absolute;
+        top:-3px;
+        
+}
+input[type=checkbox]:focus {
+        outline: none;
+        border-color:#dcdcdc;
+}
+.btn-choose .delete{
+    margin-left:15px;
+}
+.table .agency-tbody tr td{
+	padding:4px 20px;
+}
+.table-agency-list>thead>tr>td{
+    padding:12px 20px;
+}
+.table-agency-list>tbody>tr>td{
+    padding:8px 20px;
+}
+.agency-table>thead>tr>td {
+    padding:12px 20px;
+    color: #666666;
+}
+/* 表格条纹修改 */
+.table-striped>thead>tr{
+    background-color: #f5f5f5;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #f5f5f5;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+.table>tbody>tr:hover{
+    background:#eaeaea;
+}
+/* 按钮验收修改 */
+.btn-choose .btn-green{
+	background-color:#00cc33;
+}
+.btn-choose .btn-green:hover{
+	background-color:#00b433;
+}
+.btn-choose .btn-yellow{
+	background-color:#ffcc00;
+}
+.btn-choose .btn-yellow:hover{
+    background-color:#ffb400;
+}
+.btn-choose .btn-red,.btn-choose .btn-yellow,.btn-choose .btn-green{
+	padding:8px 50px;
+    transition: background 0.2s, transform 2s;
+    -webkit-transition: background 0.2s, -webkit-transform 2s;
+    color: #ffffff;
+    border-radius:2px;
+    cursor: pointer;
+}
+.checkbox-list {
+    width: 10px;
+}
+.btn-green,.btn-red,.btn-yellow{
+margin-top:10px;
+margin-left:20px;
+}
+.form-control[disabled]{
+    background-color:#fafafa;
+}
+.table tbody tr .agency-revise{
+	padding:5px 0;
+}
+.form-control {
+    border-radius:2px;
+}
+.animate-checkbox {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 0 3px #c8c8c8;
+}
+.audit{
+    width:450px;
+    height:150px;
+    border-radius:0px;
+}
+.audit-header{
+    padding:0px !important;
+    height:36px;
+    background:#eaeaea;
+}
+.audit-header h4{
+    font-size:16px;
+    color:#666;
+    line-height:36px;
+    margin-left:20px;
+}
+.audit-header .close{
+    font-size:18px !important;
+    line-height:36px;
+    margin-right:10px;
+    out-line:none;
+}
+.information-content p{
+    font-size:16px;
+    color:#666;
+}
+.btn-start{
+	width:100px;
+    height:36px;
+    border-radius:0px !important;
+}
+.btn-start{
+	background:red;
+    color:white;
+}
+.btn-start:hover{
+	color:white;
+}
+.btn-group{
+    margin-right:-20px;
+    padding:12px;
+}
+.table-bordered>tbody>tr>td {
+    height:48px;
+    line-height:30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}

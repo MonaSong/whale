@@ -1,0 +1,553 @@
+
+.pledge-img{
+	background:url(../../imgs/pledge/icon_inspection.png)no-repeat;
+}
+.pledge_icon{
+	width:40px;
+	height:50px;
+}
+.pledge_icon:hover{
+    background-position:0 -50px;
+}
+.data-list-body .data-list-left {
+    padding-top:15px;
+}
+.data-list-left .whale-bage{
+	border-radius:0;
+}
+
+/*质押物管理css*/
+.base-win-info{
+    position: absolute;
+    top:35px;
+    background-color: #fff;
+    z-index: 10;
+    border:1px solid #f5f5f5;
+    padding: 8px 10px;
+}
+.sm-win-bage{
+    position: relative;
+    display: inline-block;
+    padding: 4px 10px;
+    border:1px solid #f5f5f5;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.sm-win-bage b{
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    right: -2px;
+    background-color: #999;
+    color: #fff;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    z-index: 13;
+    line-height: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+[data-pane-id]{
+    display: none;
+}
+
+.records{
+    position: absolute;
+    display: inline-block;
+    min-width: 60px;
+    top: 60px;
+    left: -8px;
+    text-align: left;
+    font-size: 15px;
+}
+.whale-bage.pledge_icon{
+    transition-duration: 0s;
+    -moz-transition-duration: 0s; 
+    -webkit-transition-duration: 0s; 
+    -o-transition-duration: 0s; 
+}
+
+[data-role="edit_pledge"]{
+    position: relative;
+    top:-15px;
+    left:30px;
+
+}
+
+/*巡检记录*/
+.container.whale-container{
+    background-color: #fff;
+    border:0;
+    padding: 15px;
+}
+.container.whale-container .records-title{
+    font-family: 'Microsoft Yahei';
+}
+
+.calendar{
+    width:100%;
+    text-align:center;
+    font-size:12px;
+}
+.calendar table{
+    margin-left: 15px;
+}
+
+.calendar .wrap{
+    width:100%;
+    height:36px;
+    line-height:36px;
+}
+
+.calendar .wrap .theMonth{
+    color:#666;
+}
+
+.calendar .wrap span{
+    font-size:24px;
+    color: #666;
+    cursor:pointer;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.calendar .wrap span b{
+    color: #666;
+}
+.calendar .wrap span b:hover{
+    color: #333;
+}
+
+.calendar .wrap .span{
+    float: left;
+}
+
+.calendar .wrap .prev_year{
+    float: right;
+    margin-right: 12px;
+    font-family: "sans-serif";
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.calendar .wrap .next_year{
+    float:right;
+    font-family:"sans-serif";
+    font-weight:bold;
+    font-size:14px;
+}
+
+.calendar .wrap .prev_month{
+    float: right;
+    margin-right: 12px;
+    font-family: "sans-serif";
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.calendar .wrap .next_month{
+    float: right;
+    font-family: "sans-serif";
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.calendar .wrap .next_year:hover,
+.calendar .wrap .prev_year:hover,
+.calendar .wrap .next_month:hover,
+.calendar .wrap .prev_month:hover{
+    color:#333;
+}
+
+.calendar table{
+    width:100%;
+    border-left: 1px solid #ccc;
+}
+
+.calendar .header{
+    background-color:#fff;
+    font-family:"Microsoft YaHei";
+}
+
+.calendar .header td{
+    cursor: default;
+    color: #333;
+    line-height: 90px;
+    border-top: 1px solid #ccc;
+}
+
+.line{
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.calendar .empty{
+    cursor:default;
+}
+
+.calendar .empty:hover{
+background-color: #FFF;
+}
+
+/*另外加的样式*/
+.calendar tr td{
+    /* border:1px solid #CCC;
+    line-height:1.428;
+    background-color: #fff;
+    width: 14%;
+    height: 100px;
+    position: relative; */
+
+
+    /* border: 1px solid #CCC; */
+    border-bottom: 1px solid #CCC;
+    border-right:1px solid #CCC;  
+    line-height: 1.428;
+    background-color: #fff;
+    width: 14%;
+    height: 100px;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.cur-day{
+    background-color: #f30026;
+}
+.cur-day:hover{
+    background-color: #cc001e;
+}
+.cur-day,
+.whale-day{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 20px;    
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding-top: 12px;
+    border-radius: 100%;
+    transition:background-color linear .2s;
+}
+.day:hover{
+    background-color: #eee;
+    transition:background-color linear .2s;
+}
+
+.cur-day .y-day,
+.cur-day .n-day{ 
+    display: block;   
+    color: #fff;
+}
+
+.day .y-day,
+.day .n-day{ 
+    display: block;   
+}
+.day .y-day{ 
+    color:#333;
+    font-weight: 800;  
+}
+
+.y-day{
+    font-size: 14px;
+}
+
+.day .y-day,
+.day .n-day{ 
+    color:#666;
+}
+
+/*图片*/
+.img-box{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+
+}
+
+/*结束 巡检记录*/
+body.modal-open{
+    padding-right:0 !important;
+}
+
+.img-box input{
+    display: none;
+}
+
+.upload-file input{
+    display: none;
+}
+.upload-file [data-role="upload-file"]{
+    display: inline-block;
+    background-color: #fff;
+    cursor: pointer;
+    color: #999;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    height: 35px;
+    width: 100px;
+    padding-left: 20px;
+    line-height: 32px;
+    font-size: 14px;
+}
+.upload-file [data-role="upload-file"] i{
+    margin-right: 15px;
+}
+
+.submit-file{
+    height: 35px;
+    width: 100px;
+    background-color: #f30026;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 2px;
+    background-image: none;
+    border: 0;
+    outline: none;
+    transition: background-color linear .2s;
+    -webkit-transition: background-color linear .2s;
+    position: relative;
+    right: 18px;
+}
+.submit-file:hover{
+    background-image: none;
+    background-color: #cc001e;
+    transition:background-color linear .2s;
+    -webkit-transition:background-color linear .2s;
+}
+
+.view-records-content{
+    min-height: 500px;
+    overflow: hidden;
+    width: 660px;
+    height: 600px;
+}
+
+.my-carousel-box{
+    width: 450px;
+    height: 320px;
+    background-color: #fff;
+    border:1px solid #f5f5f5;
+    margin:0 auto;
+    position: relative;
+}
+
+.my-carousel-box .left,
+.my-carousel-box .right{
+    position: absolute;
+    top: 135px;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.428;
+    border-radius: 100%;
+    color: #ddd;
+    cursor: pointer;
+
+}
+
+.my-carousel-box .left{
+    left:-70px;
+}
+.my-carousel-box .right{
+    right: -70px;
+}
+
+/*缩略图容器*/
+.my-thumbnail-box{
+    height: 70px;
+    padding-left: 50px;
+    margin-top: 60px;
+    border-top: 1px solid #eaeaea;
+    padding-top: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.upload-file,
+.tip-info{
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+.tip-info{
+    left:50px;
+}
+
+.small-bg{
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+
+}
+.small-bg input{
+    display: none;
+}
+
+.small-bg b{
+    background-color: #f30026;
+    height: 15px;
+    width: 15px;
+    color:#fff;
+    text-align: center;
+    line-height: 14px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.canlander-mk-icon{
+    cursor: pointer;
+}
+.canlander-mk-icon.has-records-icon{
+    border:1px solid #f30026;
+}
+
+.carousel-box{
+    width: 450px;
+    height: 320px;
+    overflow: hidden;
+}
+.my-carousel{
+    position: relative;
+}
+.my-carousel  li{
+    position: relative;
+    display: inline-block;
+}
+
+.my-carousel li .delete-db-img{
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transition:all linear .3 ;
+    position: absolute;
+}
+
+.my-carousel.jg-handlable li:hover .delete-db-img{
+    opacity: 1;
+    filter: alpha(opacity=100);
+    transition:all linear .3 ;
+}
+
+.my-carousel.jg-handlable li .delete-db-img{
+    position: absolute;
+    top:5px;
+    right:5px;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #f30026;
+    border-radius: 100%;
+    line-height: 1;
+    text-align: center;
+    color:#fff;
+    cursor: pointer;
+}
+
+[data-role="edit_pledge"].has-task-id:after{
+    display: block;
+    position: absolute;
+    top:-5px;
+    right: -5px;
+    content: '!';
+    font-weight: 800;
+    color: #fff;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    border-radius: 100%;
+    background-color: #f30026;
+}
+
+.form-data-pane{
+    padding-right: 10px;
+}
+.tab-pane .data-list{
+    height: 170px;
+}
+
+.btn-pledge-info{
+    height: 36px;
+    line-height: 15px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+.winery-peledge-info{
+    margin-top: -15px;
+}
+
+.view-records-content .modal-header{
+    height: 36px;
+    padding-top: 0;
+}
+.view-records-content .modal-header h4{
+    font-family: 'Microsoft Yahei';
+    color: #666 !important;
+    font-size: 16px;
+}
+.view-records-content .modal-header .close{
+    position: relative;
+    top: 8px;
+}
+
+.btn-fixed-width{
+    position: relative;
+    top: 8px;
+    left: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 2px;
+}
+
+.modal-content{
+    border: 0;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.26);
+}
+.big-modal .close{
+    display: none;
+}
+
+.big-modal .modal-dialog,
+.big-modal .modal-content{
+    width: 0px;
+    height: 0px;
+    box-shadow: none;
+}
+.big-modal .modal-body{
+    padding: 0;
+}
+.big-modal .modal-backdrop{
+    background-color: #000;
+    z-index: 1000;
+}
+.big-modal .modal-dialog{
+    z-index: 2000;
+}
+.big-modal .close{
+    position: absolute;
+    right: -25px;
+    top: 0;
+    background-color: #fff;
+    opacity: 1;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    font-size: 23px;
+    font-family: serif;
+    color: #a5a5a5;
+}
